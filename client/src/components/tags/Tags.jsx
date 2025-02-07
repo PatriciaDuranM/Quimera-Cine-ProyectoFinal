@@ -1,4 +1,4 @@
-import { StyledAge } from './tags.styles';
+import { StyledAge, StyledGenre } from './tags.styles';
 
 const Tag = ({ type, values, size }) => {
 	console.log(size);
@@ -7,6 +7,13 @@ const Tag = ({ type, values, size }) => {
 			<StyledAge $size={size} $color={values.color}>
 				{values.text}
 			</StyledAge>
+		);
+
+	if (type === 'genre')
+		return (
+			<StyledGenre $size={size} $color={values.color}>
+				{values.text}
+			</StyledGenre>
 		);
 };
 

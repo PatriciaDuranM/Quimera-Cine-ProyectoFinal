@@ -1,4 +1,4 @@
-import { AGE_TAGS } from '../../styles/tags';
+import { AGE_TAGS, GENRE_TAGS } from '../../styles/tags';
 import Tag from '../tags/Tags';
 import {
 	StyledBookIcon,
@@ -15,9 +15,9 @@ const MovieCardList = () => {
 		<StyledCardBox>
 			<StyledImgContainer>
 				<Tag
-					type='age'
-					size={AGE_TAGS[16].size.S_MOV}
-					values={AGE_TAGS[16]}
+					type='genre'
+					size={GENRE_TAGS.biografia.size.M_MOV}
+					values={GENRE_TAGS.biografia}
 				></Tag>
 				<StyledBookIcon src='' />
 				<StyledImg src='' />

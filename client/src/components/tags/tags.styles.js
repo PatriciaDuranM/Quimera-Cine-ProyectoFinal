@@ -1,13 +1,24 @@
 import styled from 'styled-components';
+import { COLORS } from '../../styles/Colors';
 
-const StyledAge = styled.span`
+const StyledTag = styled.span`
 	display: flex;
 	align-items: center;
-	width: ${({ $size }) => $size.width};
 	height: ${({ $size }) => $size.height};
-	padding-inline: 8px;
+	padding: 8px;
 	border-radius: 18px;
 	background-color: ${({ $color }) => $color};
+	font-size: ${({ $size }) => $size.fontSize};
+	font-weight: ${({ $size }) => $size.fontWeight};
+	color: ${COLORS.principal};
 `;
 
-export { StyledAge };
+const StyledAge = styled(StyledTag)`
+	width: ${({ $size }) => $size.width};
+`;
+
+const StyledGenre = styled(StyledTag)`
+	width: fit-content;
+`;
+
+export { StyledAge, StyledGenre };

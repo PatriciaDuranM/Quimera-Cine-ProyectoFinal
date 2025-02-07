@@ -1,0 +1,20 @@
+[
+    {
+        "title":"La Quimera (VOSE)",
+        "year": 2024,
+        "genres":["drama", "comedia", "realismo mágico" ],
+        "age": "7",
+        "duration": 130, 
+        "actors": [{
+            "name": "",
+            "img": "" ,
+        }],
+        "calificacion": "" , 
+        "direccion": "", 
+        "idioma original": "", 
+        "filmAffinity": 7.2 ,
+        "sinopsis": "",
+        "moviePoster":
+        
+    }
+]

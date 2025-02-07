@@ -1,17 +1,24 @@
 import { COLORS } from './Colors';
+import { FONT_WEIGHT } from './FontsStyles';
 
 const AGE_SIZES = {
 	S_MOV: {
 		width: '35px',
-		height: '27px'
+		height: '27px',
+		fontSize: '14px',
+		fontWeight: FONT_WEIGHT.regular
 	},
 	M_MOV: {
 		width: '35px',
-		height: '32px'
+		height: '32px',
+		fontSize: '18px',
+		fontWeight: FONT_WEIGHT.medium
 	},
 	L_MOV: {
 		width: '40px',
-		height: '40px'
+		height: '40px',
+		fontSize: '18px',
+		fontWeight: FONT_WEIGHT.regular
 	}
 };
 
@@ -40,13 +47,19 @@ export const AGE_TAGS = {
 
 const GENRE_SIZES = {
 	S_MOV: {
-		height: '27px'
+		height: '27px',
+		fontSize: '14px',
+		fontWeight: FONT_WEIGHT.regular
 	},
 	M_MOV: {
-		height: '32px'
+		height: '32px',
+		fontSize: '18px',
+		fontWeight: FONT_WEIGHT.medium
 	},
 	L_MOV: {
-		height: '40px'
+		height: '40px',
+		fontSize: '18px',
+		fontWeight: FONT_WEIGHT.regular
 	}
 };
 
