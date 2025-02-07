@@ -14,10 +14,11 @@ const StyledBar = styled.header`
 	@media screen and (width>768px) {
 		height: 160px;
 		padding-inline: 40px;
-		padding-inline: 24px;
 		display: flex;
 		flex-direction: row;
+		align-items: center;
 		gap: 72px;
+		background-image: linear-gradient(${COLORS.pink}, transparent);
 	}
 `;
 
@@ -30,9 +31,14 @@ const StyledMenuDiv = styled.div`
 
 const StyledIcon = styled.img`
 	width: 70px;
-	height: 70px;
 	padding-inline: 8px;
 	padding-block: 4px;
+
+	@media screen and (width>768px) {
+		width: 88px;
+		padding-inline: 0px;
+		padding-block: 0px;
+	}
 `;
 
 const StyledMenuIcon = styled.img`
@@ -40,11 +46,15 @@ const StyledMenuIcon = styled.img`
 	height: 62px;
 	padding-inline: 10px;
 	padding-block: 10px;
+
 	@media screen and (width>768px) {
 		display: none;
 	}
 `;
 
+const StyledNav = styled.nav`
+	width: 100%;
+`;
 const StyledMenuList = styled.ul`
 	z-index: 1;
 	display: ${({ $menuOpen }) => ($menuOpen ? 'flex' : 'none')};
@@ -54,6 +64,7 @@ const StyledMenuList = styled.ul`
 	top: 112px;
 	left: 0px;
 	background-color: ${COLORS.pink};
+
 	color: ${COLORS.neutralCold};
 	padding-block: 16px;
 	padding-inline: 32px;
@@ -67,9 +78,10 @@ const StyledMenuList = styled.ul`
 		position: static;
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
 		align-items: center;
-		gap: 40px;
-		background-color: red;
+		gap: 60px;
+		background-color: transparent;
 	}
 `;
 
@@ -98,6 +110,10 @@ const StyledNavLink = styled(NavLink)`
 		bottom: -10px;
 		left: 0;
 	}
+
+	@media screen and (width>786px) {
+		font-size: 40px;
+	}
 `;
 
 export {
@@ -107,5 +123,6 @@ export {
 	StyledMenuDiv,
 	StyledMenuList,
 	StyledItem,
-	StyledNavLink
+	StyledNavLink,
+	StyledNav
 };

@@ -6,6 +6,7 @@ import {
 	StyledMenuDiv,
 	StyledMenuIcon,
 	StyledMenuList,
+	StyledNav,
 	StyledNavLink
 } from './header.styles';
 import { useState } from 'react';
@@ -16,15 +17,18 @@ const Header = () => {
 		<StyledBar>
 			<StyledMenuDiv>
 				<Link to='/'>
-					<StyledIcon src='../assets/images/logo/logoGrandeLight.png' />
+					<StyledIcon
+						src='/assets/images/logo/logoGrandeLight.png'
+						alt='Inicio'
+					/>
 				</Link>
 				<StyledMenuIcon
 					onClick={() => setMenuOpen(!menuOpen)}
-					src='../assets/images/Icons/MenuBigLight.png'
+					src='/assets/images/Icons/MenuDarkBig.svg'
 					alt='Menu'
 				/>
 			</StyledMenuDiv>
-			<nav>
+			<StyledNav>
 				<StyledMenuList $menuOpen={menuOpen}>
 					<StyledItem>
 						<StyledNavLink to='/cartelera'>Cartelera</StyledNavLink>
@@ -42,7 +46,7 @@ const Header = () => {
 						<StyledNavLink to='/iniciarSesion'>Iniciar sesión</StyledNavLink>
 					</StyledItem>
 				</StyledMenuList>
-			</nav>
+			</StyledNav>
 		</StyledBar>
 	);
 };

@@ -1,14 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 import './normalize.css';
+import { COLORS } from './Colors';
 export const GlobalStyles = createGlobalStyle`
 
     
 
     @font-face {
     font-family: 'clashDisplay';
-    src: url('../fonts//ClashDisplay/ClashDisplay-Variable.woff2') format('woff2'),
-       url('../fonts/ClashDisplay/ClashDisplay-Variable.woff') format('woff'),
-       url('../fonts/ClashDisplay/ClashDisplay-Variable.ttf') format('truetype');
+    src: url('/assets/fonts//ClashDisplay/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/assets/fonts/ClashDisplay/ClashDisplay-Variable.woff') format('woff'),
+       url('/assets/fonts/ClashDisplay/ClashDisplay-Variable.ttf') format('truetype');
      font-weight: 200 700;
     font-display: swap;
     font-style: normal;
@@ -16,9 +17,9 @@ export const GlobalStyles = createGlobalStyle`
 
     @font-face {
     font-family: 'clashGrotesk';
-    src: url('../fonts/ClashGrotesk/ClashGrotesk-Variable.woff2') format('woff2'),
-       url('../fonts/ClashGrotesk/ClashGrotesk-Variable.woff') format('woff'),
-       url('../fonts/ClashGrotesk/ClashGrotesk-Variable.ttf') format('truetype');
+    src: url('/assets/fonts/ClashGrotesk/ClashGrotesk-Variable.woff2') format('woff2'),
+       url('/assets/fonts/ClashGrotesk/ClashGrotesk-Variable.woff') format('woff'),
+       url('/assets/fonts/ClashGrotesk/ClashGrotesk-Variable.ttf') format('truetype');
     font-weight: 200 700;
     font-display: swap;
     font-style: normal;
@@ -26,11 +27,11 @@ export const GlobalStyles = createGlobalStyle`
 
     @font-face {
     font-family: 'porterSans';
-    src: url('..fonts/PorterSans/porter-sans-inline-block-webfont.eot');
-    src: url('..fonts/PorterSans/porter-sans-inline-block-webfont.eot?#iefix') format('embedded-opentype'),
-         url('..fonts/PorterSans/porter-sans-inline-block-webfont.woff') format('woff'),
-         url('..fonts/PorterSans/porter-sans-inline-block-webfont.ttf') format('truetype'),
-         url('..fonts/PorterSans/porter-sans-inline-block-webfont.svg#porter_sans_blockblock') format('svg');
+    src: url('/assets//fonts/PorterSans/porter-sans-inline-block-webfont.eot');
+    src: url('/assets/fonts/PorterSans/porter-sans-inline-block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/PorterSans/porter-sans-inline-block-webfont.woff') format('woff'),
+         url('/assets/fonts/PorterSans/porter-sans-inline-block-webfont.ttf') format('truetype'),
+         url('/assets/fonts/PorterSans/porter-sans-inline-block-webfont.svg#porter_sans_blockblock') format('svg');
     font-weight: normal;
     font-style: normal;
     }
@@ -62,7 +63,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        font-family: sans-serif;
+        font-family: 'clashGrotesk', sans-serif;
         margin: 0;
         background-image:url('../assets/images/images/fondoMovil.png');
         background-repeat:no-repeat;
@@ -72,5 +73,6 @@ export const GlobalStyles = createGlobalStyle`
             background-image:url('../assets/images/images/fondoEscritorio.png');
 	    }
         background-size:100%;
+        color: ${COLORS.neutralCold};
     }
 `;
