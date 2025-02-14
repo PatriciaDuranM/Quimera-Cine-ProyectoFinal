@@ -6,6 +6,7 @@ import Tarifas from '../pages/tarifas/Tarifas';
 import Blog from '../pages/blog/Blog';
 import Perfil from '../pages/perfil/Perfil';
 import Actividades from '../pages/actividades/Actividades';
+import Pelicula from '../pages/pelicula/Pelicula';
 
 const Router = () => {
 	return (
@@ -17,6 +18,7 @@ const Router = () => {
 				<Route path='/blog' element={<Blog />} />
 				<Route path='/actividades' element={<Actividades />} />
 				<Route path='/perfil' element={<Perfil />} />
+				<Route path='/pelicula/:id' element={<Pelicula />} />
 			</Route>
 		</Routes>
 	);

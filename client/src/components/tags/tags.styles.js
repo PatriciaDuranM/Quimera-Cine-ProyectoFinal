@@ -11,6 +11,7 @@ const StyledTag = styled.span`
 	font-size: ${({ $size }) => $size.fontSize};
 	font-weight: ${({ $size }) => $size.fontWeight};
 	color: ${COLORS.principal};
+	position: absolute;
 `;
 
 const StyledAge = styled(StyledTag)`

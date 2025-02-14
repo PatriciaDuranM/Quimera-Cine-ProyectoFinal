@@ -23,16 +23,19 @@ const StyledImgContainer = styled.div`
 	position: relative;
 	box-shadow: 5px 18px 30px 0px rgb(35 11 74 / 0.7);
 	border: 1px solid red;
+	overflow: hidden;
 
 	@media screen and (width>768px) {
-		width: 216px;
-		height: 326px;
+		width: 258px;
+		height: 402px;
 		border-radius: 20px;
 	}
 `;
 
 const StyledImg = styled.img`
 	width: fit-content;
+	object-fit: cover;
+	height: 100%;
 `;
 
 const StyledBookIcon = styled.img`
@@ -57,6 +60,7 @@ const StyledMovieTittle = styled.h2`
 const StyledMovieInfo = styled.div`
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 	gap: 4px;
 `;
 
@@ -68,6 +72,7 @@ const StyledMovieGenre = styled.span`
 
 	@media screen and (width>768px) {
 		font-size: 20px;
+		display: none;
 	}
 `;
 

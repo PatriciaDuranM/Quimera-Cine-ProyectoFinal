@@ -1,87 +1,83 @@
 import { COLORS } from './Colors';
-import { FONT_WEIGHT } from './FontsStyles';
 
-const AGE_SIZES = {
+export const AGE_SIZES = {
 	S_MOV: {
 		width: '35px',
 		height: '27px',
-		fontSize: '14px',
-		fontWeight: FONT_WEIGHT.regular
+		fontSize: '1rem'
 	},
 	M_MOV: {
 		width: '35px',
 		height: '32px',
-		fontSize: '18px',
-		fontWeight: FONT_WEIGHT.medium
+		fontSize: '2rem'
 	},
 	L_MOV: {
 		width: '40px',
 		height: '40px',
-		fontSize: '18px',
-		fontWeight: FONT_WEIGHT.regular
+		fontSize: '3rem'
 	}
 };
 
 export const AGE_TAGS = {
 	A: {
 		text: 'A',
-		color: COLORS.pastelGreen,
-		size: AGE_SIZES
+		color: COLORS.pastelGreen
 	},
 	7: {
 		text: '+7',
-		color: COLORS.pastelBlue,
-		size: AGE_SIZES
+		color: COLORS.pastelBlue
 	},
 	12: {
 		text: '+12',
-		color: COLORS.pastelOrange,
-		size: AGE_SIZES
+		color: COLORS.pastelOrange
 	},
 	16: {
 		text: '+16',
-		color: COLORS.pastelPink,
-		size: AGE_SIZES
+		color: COLORS.pastelPink
 	}
 };
 
-const GENRE_SIZES = {
+export const GENRE_SIZES = {
 	S_MOV: {
-		height: '27px',
-		fontSize: '14px',
-		fontWeight: FONT_WEIGHT.regular
+		height: '27px'
 	},
 	M_MOV: {
-		height: '32px',
-		fontSize: '18px',
-		fontWeight: FONT_WEIGHT.medium
+		height: '32px'
 	},
 	L_MOV: {
-		height: '40px',
-		fontSize: '18px',
-		fontWeight: FONT_WEIGHT.regular
+		height: '40px'
 	}
 };
 
 export const GENRE_TAGS = {
-	accion: {
+	action: {
 		text: 'Acción',
 		color: COLORS.pastelPink,
 		size: GENRE_SIZES
 	},
-	animacion: {
+	adventure: {
+		text: 'Aventura',
+		color: COLORS.pastelOrange,
+		size: GENRE_SIZES
+	},
+	animation: {
 		text: 'Animación',
 		color: COLORS.pastelBlue,
 		size: GENRE_SIZES
 	},
-	biografia: {
-		text: 'Biografía',
-		color: COLORS.pastelGreen,
-		size: GENRE_SIZES
-	},
-	comedia: {
+	comedy: {
 		text: 'Comedia',
 		color: COLORS.pastelOrange,
+		size: GENRE_SIZES
+	},
+	crime: {
+		text: 'Crimen',
+		color: COLORS.pastelViolet,
+		size: GENRE_SIZES
+	},
+	documentary: {
+		text: 'Documental',
+		color: COLORS.pastelGreen,
 		size: GENRE_SIZES
 	},
 	drama: {
@@ -89,8 +85,33 @@ export const GENRE_TAGS = {
 		color: COLORS.pastelViolet,
 		size: GENRE_SIZES
 	},
-	familiar: {
+	family: {
 		text: 'Familiar',
+		color: COLORS.pastelBlue,
+		size: GENRE_SIZES
+	},
+	fantasy: {
+		text: 'Fantasía',
+		color: COLORS.pastelGreen,
+		size: GENRE_SIZES
+	},
+	history: {
+		text: 'Historia',
+		color: COLORS.pastelOrange,
+		size: GENRE_SIZES
+	},
+	horror: {
+		text: 'Terror',
+		color: COLORS.pastelViolet,
+		size: GENRE_SIZES
+	},
+	music: {
+		text: 'Música',
+		color: COLORS.pastelOrange,
+		size: GENRE_SIZES
+	},
+	mystery: {
+		text: 'Misterio',
 		color: COLORS.pastelBlue,
 		size: GENRE_SIZES
 	},
@@ -99,39 +120,29 @@ export const GENRE_TAGS = {
 		color: COLORS.pastelPink,
 		size: GENRE_SIZES
 	},
-	scifi: {
-		text: 'Sci-fi',
+	'sci-fi': {
+		text: 'Ciencia ficción',
 		color: COLORS.pastelViolet,
 		size: GENRE_SIZES
 	},
-	concierto: {
-		text: 'Concierto',
+	'tv-movie': {
+		text: 'Película de TV',
 		color: COLORS.pastelGreen,
-		size: GENRE_SIZES
-	},
-	misterio: {
-		text: 'Misterio',
-		color: COLORS.pastelBlue,
 		size: GENRE_SIZES
 	},
 	thriller: {
-		text: 'Thriller',
+		text: 'Suspense',
 		color: COLORS.pastelPink,
 		size: GENRE_SIZES
 	},
-	musical: {
-		text: 'Musical',
+	war: {
+		text: 'Bélica',
 		color: COLORS.pastelOrange,
 		size: GENRE_SIZES
 	},
-	terror: {
-		text: 'Terror',
-		color: COLORS.pastelViolet,
-		size: GENRE_SIZES
-	},
-	documental: {
-		text: 'Documental',
-		color: COLORS.pastelGreen,
+	western: {
+		text: 'Western',
+		color: COLORS.pastelBrown,
 		size: GENRE_SIZES
 	}
 };
