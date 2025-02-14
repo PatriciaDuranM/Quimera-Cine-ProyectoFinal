@@ -38,6 +38,7 @@ const StyledMarkIcon = styled.img`
 const StyledTagBox = styled.div`
 	display: flex;
 	flex-direction: row;
+	gap: 16px;
 	flex-wrap: wrap;
 `;
 
@@ -50,6 +51,13 @@ const StyledAffinityText = styled.span`
 	font-weight: ${FONT_WEIGHT.semibold};
 `;
 
+const StyledActorsBox = styled.div`
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	justify-content: flex-start;
+`;
+
 export {
 	StyledMovieBanner,
 	StyledTitle,
@@ -58,5 +66,6 @@ export {
 	StyledTagBox,
 	StyledMain,
 	StyledAffinity,
-	StyledAffinityText
+	StyledAffinityText,
+	StyledActorsBox
 };

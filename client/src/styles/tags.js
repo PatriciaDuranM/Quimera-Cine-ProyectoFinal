@@ -39,13 +39,16 @@ export const AGE_TAGS = {
 
 export const GENRE_SIZES = {
 	S_MOV: {
-		height: '27px'
+		height: '27px',
+		fontSize: '1rem'
 	},
 	M_MOV: {
-		height: '32px'
+		height: '32px',
+		fontSize: '2rem'
 	},
 	L_MOV: {
-		height: '40px'
+		height: '60px',
+		fontSize: '3rem'
 	}
 };
 

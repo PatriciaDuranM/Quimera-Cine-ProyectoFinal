@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import ActorCard from '../../components/ActorCard/ActorCard';
 import { MOVIES } from '../../constants/movies';
 import {
+	StyledActorsBox,
 	StyledMain,
 	StyledMarkIcon,
 	StyledMovieBanner,
@@ -25,21 +26,24 @@ const Pelicula = () => {
 				))} */}
 				<StyledTitleBox>
 					<StyledTitle>{moviefound.title}</StyledTitle>
-					<StyledMarkIcon src='/assets/images/Icons/GuardarIconOff.svg' />
+					<StyledMarkIcon src='/assets/images/Icons/GuardarIconOffLight.svg' />
 				</StyledTitleBox>
 				<StyledTagBox>
 					{moviefound.genre_ids.map(genre => (
 						<Tag
 							key={genre}
 							type='genre'
-							size={GENRE_TAGS[genre].size.M_MOV}
+							size={GENRE_TAGS[genre].size.L_MOV}
 							values={GENRE_TAGS[genre]}
+							position='static'
 						></Tag>
 					))}
 				</StyledTagBox>
-				{moviefound.actors.map(actor => (
-					<ActorCard key={actor.name} photo={actor.photo} name={actor.name} />
-				))}
+				<StyledActorsBox>
+					{moviefound.actors.map(actor => (
+						<ActorCard key={actor.name} photo={actor.photo} name={actor.name} />
+					))}
+				</StyledActorsBox>
 			</StyledMain>
 		</>
 	);

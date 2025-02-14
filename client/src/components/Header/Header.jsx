@@ -24,7 +24,7 @@ const Header = () => {
 				</Link>
 				<StyledMenuIcon
 					onClick={() => setMenuOpen(!menuOpen)}
-					src='/assets/images/Icons/MenuDarkBig.svg'
+					src='/assets/images/Icons/MenuIconLightBig.svg'
 					alt='Menu'
 				/>
 			</StyledMenuDiv>

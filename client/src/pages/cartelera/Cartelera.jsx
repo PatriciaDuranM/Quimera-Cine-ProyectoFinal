@@ -7,6 +7,7 @@ import { AGE_TAGS, GENRE_TAGS } from '../../styles/tags';
 import { MOVIES } from '../../constants/movies';
 import { StyledContainerMoviesBlock } from './Cartelera.styles';
 import ActorCard from '../../components/ActorCard/ActorCard';
+import MovieCardBlock from '../../components/MovieCardBlock/MovieCardBlock';
 
 const API_KEY = '516800ef8302f7e2f4b5b52959005cf6';
 const url = `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=es-ES&page=1`;
@@ -24,7 +25,7 @@ const Cartelera = () => {
 			<FilterButtons></FilterButtons>
 			<StyledContainerMoviesBlock>
 				{MOVIES.map(movie => (
-					<MovieCardList key={movie.id} {...movie} />
+					<MovieCardBlock key={movie.id} {...movie} />
 				))}
 
 				{/* <Tag type='age' size={AGE_TAGS[16].S_MOV} values={AGE_TAGS[16]}></Tag>
