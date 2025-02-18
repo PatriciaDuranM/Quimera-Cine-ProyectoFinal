@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { FONT_WEIGHT } from '../../styles/FontsStyles';
-import { COLORS } from '../../styles/Colors';
 
 const StyledCardBox = styled.div`
 	display: flex;

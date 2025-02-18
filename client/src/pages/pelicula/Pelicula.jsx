@@ -11,7 +11,10 @@ import {
 	StyledTitleBox
 } from './Pelicula.styles';
 import Tag from '../../components/tags/Tags';
-import { GENRE_TAGS } from '../../styles/tags';
+import { AGE_SIZES, AGE_TAGS, GENRE_TAGS } from '../../styles/tags';
+import MovieText from '../../components/MovieText/MovieText';
+import MovieTitles from '../../components/MovieTitles/MovieTitles';
+import MovieDescription from '../../components/MovieDescription/MovieDescription';
 
 const Pelicula = () => {
 	const { id } = useParams();
@@ -38,12 +41,53 @@ const Pelicula = () => {
 							position='static'
 						></Tag>
 					))}
+
+					{/* <Tag
+						key={age}
+						type='age'
+						size={AGE_SIZES[age].size.L_MOV}
+						values={AGE_TAGS[age]}
+						position='static'
+					></Tag>
+					 */}
 				</StyledTagBox>
+				<MovieTitles>Actores:</MovieTitles>
 				<StyledActorsBox>
 					{moviefound.actors.map(actor => (
 						<ActorCard key={actor.name} photo={actor.photo} name={actor.name} />
 					))}
 				</StyledActorsBox>
+				<MovieTitles>Información</MovieTitles>
+				<MovieTitles>
+					Duración:
+					<span>
+						<MovieText> {moviefound.duration} mintuos.</MovieText>
+					</span>
+				</MovieTitles>
+				<MovieDescription
+					title='Género: '
+					text={moviefound.genre_ids}
+				></MovieDescription>
+				<MovieTitles>Género:</MovieTitles>
+				<MovieTitles>Dirección:</MovieTitles>
+				<MovieDescription
+					title='Dirección: '
+					text={moviefound.director}
+				></MovieDescription>
+				<MovieTitles>Idioma original:</MovieTitles>
+				<MovieDescription
+					title='Idioma original: '
+					text={moviefound.original_language}
+				></MovieDescription>
+
+				<MovieTitles>Calificación:</MovieTitles>
+				<MovieDescription
+					title='Calificación: '
+					text={moviefound.age}
+				></MovieDescription>
+				<MovieTitles>Sinopsis:</MovieTitles>
+				<MovieText>{moviefound.overview}</MovieText>
+				<MovieTitles>Trailer:</MovieTitles>
 			</StyledMain>
 		</>
 	);

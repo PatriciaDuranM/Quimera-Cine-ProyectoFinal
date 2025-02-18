@@ -68,6 +68,7 @@ export const GlobalStyles = createGlobalStyle`
         background-image:url('../assets/images/images/fondoMovil.png');
         background-repeat:no-repeat;
         background-size:100%;
+       
 
         @media screen and (width>768px) {
             background-image:url('../assets/images/images/fondoEscritorio.png');

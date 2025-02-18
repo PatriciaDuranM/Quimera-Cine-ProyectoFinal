@@ -1,11 +1,14 @@
 export const PAST_LIVES = {
 	id: '666277',
+	age: '12',
 	backdrop_path: '/7HR38hMBl23lf38MAN63y4pKsHz.jpg',
 	genre_ids: ['drama', 'romance'],
 	original_language: 'en',
 	original_title: 'Past Lives',
-	overview:
-		'La familia de Nora emigra a Canadá cuando ella tiene 10 años. Pierde el contacto con su amor de la infancia. Muchos años después, cuando Nora está estudiando teatro en Nueva York, se reencuentra con él online.',
+	overview: [
+		'La familia de Nora emigra a Canadá cuando ella tiene 10 años. Pierde el contacto con su amor de la infancia.',
+		'Muchos años después, cuando Nora está estudiando teatro en Nueva York, se reencuentra con él online.'
+	],
 	poster_path: '/jWrJrLMD7SZoxc65KSYej6QOw12.jpg',
 	release_date: '2023-06-02',
 	title: 'Vidas pasadas',
@@ -44,6 +47,7 @@ export const LOVE_LIES_BLEEDING = {
 	backdrop_path: '/oMiKHO3H5RixfLsiU5Vumhlp5sj.jpg',
 	genre_ids: ['romance', 'crime', 'thriller'],
 	id: '948549',
+	age: '18',
 	original_language: 'en',
 	original_title: 'Love Lies Bleeding',
 	overview:
@@ -92,6 +96,7 @@ export const EL_47 = {
 		'https://media.themoviedb.org/t/p/w500_and_h282_face/4cp40IyTpFfsT2IKpl0YlUkMBIR.jpg'
 	],
 	id: '1174481',
+	age: '7',
 	original_language: 'ca',
 	original_title: 'El 47',
 	overview:
@@ -132,10 +137,412 @@ export const EL_47 = {
 	]
 };
 
+export const LA_INFILTRADA = {
+	backdrop_path: '/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg',
+	genre_ids: [18, 80, 53],
+	id: 1215185,
+	original_language: 'es',
+	original_title: 'La infiltrada',
+	overview:
+		'País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.',
+	popularity: 477.987,
+	poster_path: '/xnME9c2PEtYGBDPO4lZXAVeEu0G.jpg',
+	release_date: '2024-10-11',
+	title: 'La infiltrada',
+	video: 'https://www.youtube.com/watch?v=7uuH_4l4DVw',
+	director: 'Arantxa Echevarría',
+	filmAffinity: '7.1',
+	age: '12',
+	duration: '119',
+	actors: [
+		{
+			name: 'Carolina Yuste',
+			profile_path: '/4lc27CTp58UZBx6Nv6Ld335cW85.jpg'
+		},
+		{
+			name: 'Luis Tosar',
+			profile_path: '/7ZTdhzUCpG9jhsKJeTJbGn36v5F.jpg'
+		},
+		{
+			name: 'Víctor Clavijo',
+			profile_path: '/f7aluwKTHUC8OLpOMxndFCrYwI3.jpg'
+		},
+		{
+			name: 'Nausicaa Bonnín',
+			profile_path: '/fubSrCF12xN9CFuZRoZTSvQeUij.jpg'
+		},
+		{
+			name: 'Iñigo Gastesi',
+			profile_path: '/74Atas5KQFiWfYTvuGEIl9LKvt8.jpg'
+		},
+		{
+			name: 'Diego Anido',
+			profile_path: '/a7DVrZFjt8JjdPWfOTT93uRXOg8.jpg'
+		}
+	]
+};
+
+export const CASA_EN_FLAMES = {
+	adult: false,
+	backdrop_path: '/8xVvEvOrtxVSWN3wpIdHozozyMb.jpg',
+	genre_ids: [35],
+	id: 1218193,
+	original_language: 'ca',
+	original_title: 'Casa en flames',
+	overview:
+		'Montse, divorciada y con dos hijos que hace tiempo que la ignoran, se prepara para una reunión familiar en su casa de la Costa Brava.',
+	popularity: 18.548,
+	poster_path: '/2qhOJFZRgXr4Q8ua8NwhNCTFv8i.jpg',
+	release_date: '2024-06-28',
+	title: 'Casa en llamas',
+	video: 'https://www.youtube.com/watch?v=_Z6CFsX-jx0',
+	filmAffinity: '7.0',
+	age: '16',
+	duration: 108,
+	director: 'Dani de la Orden',
+	actors: [
+		{
+			name: 'Emma Vilarasau',
+			profile_path: '/9VWQxEOZAJg4RqoM4OghKdADw2E.jpg'
+		},
+		{
+			name: 'Enric Auquer',
+			profile_path: '/jozyRHQKdb8pfFmH2aM5cks3j8p.jpg'
+		},
+		{
+			name: 'Maria Rodríguez Soto',
+			profile_path: '/lrkVSgDC5xghQKWDFWLwZK8DMAD.jpg'
+		},
+		{
+			name: 'Alberto San Juan',
+			profile_path: '/571HQ0oTFqwWbwCC3EtHfzZgu2x.jpg'
+		},
+		{
+			name: 'Clara Segura',
+			profile_path: '/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg'
+		},
+		{
+			name: 'José Pérez Ocaña',
+			profile_path: '/tQDMm4GPgXGpfh8mSk9bc7dZhsi.jpg'
+		}
+	]
+};
+
+export const LA_HABITACION_DE_AL_LADO = {
+	backdrop_path: '/9Xx0BCkxDsF47niAPsb8lQ0O9Qu.jpg',
+	genre_ids: [18],
+	id: 1088514,
+	original_language: 'es',
+	original_title: 'La habitación de al lado',
+	overview:
+		'Ingrid, una exitosa novelista de autoficción que, se entera de que su amiga Martha, reportera de guerra, padece una grave enfermedad. Muy amigas en su juventud, aunque separadas desde hace tiempo, la cercana muerte de Martha volverá a unirlas.',
+	popularity: 94.064,
+	poster_path: '/aFeEXvKtKZ9wY3EMsR7yp9Izfej.jpg',
+	release_date: '2024-10-07',
+	title: 'La habitación de al lado',
+	age: '16',
+	video: 'https://www.youtube.com/watch?v=43W8ZAtabNI',
+	filmAffinity: '6.3',
+	duration: 106,
+	director: 'Pedro Almodóvar',
+	actors: [
+		{
+			name: 'Julianne Moore',
+			profile_path: '/3YF19rWusxWfEI59ZM33dFhasRq.jpg'
+		},
+		{
+			name: 'Tilda Swinton',
+			profile_path: '/gWbX3a7V2MgRMRzekfITNcb27xV.jpg'
+		},
+		{
+			name: 'John Turturro',
+			profile_path: '/6O9W9cJW0kCqMzYeLupV9oH0ftn.jpg'
+		},
+		{
+			name: 'Alessandro Nivola',
+			profile_path: '/53wfpjSwPTMwhfuOSdgGgojMI8m.jpg'
+		},
+		{
+			name: 'Juan Diego Botto',
+			profile_path: '/6iu1uNMl511ZmEn0y828ZeLiuox.jpg'
+		},
+		{
+			name: 'Raúl Arévalo',
+			profile_path: '/npWhiRnqlbqku6mNnk5RTgGvnj2.jpg'
+		}
+	]
+};
+
+export const LA_ESTRELLA_AZUL = {
+	backdrop_path: '/viPfna8tjU7eEI4GMBGGNMXlx0h.jpg',
+	genre_ids: [10402, 18],
+	id: 1160878,
+	original_language: 'es',
+	original_title: 'La estrella azul',
+	overview:
+		'Años 90. Mauricio, un famoso rockero español recorre Latinoamérica buscando reencontrarse con su vocación. Allí conoce a Don Carlos, un anciano músico en horas bajas que, a pesar de ser autor de algunas de las canciones más famosas del folclore de su país, apenas consigue pagar sus facturas. Carlos acoge con generosidad al extraño visitante haciendo las veces de maestro Miyagi musical. De su encuentro nace un extravagante dúo quijotesco, con todos los visos de ser un absoluto fracaso comercial.',
+	popularity: 7.2,
+	poster_path: '/okIqQayPcdYJUwC4qq1ALxMTgV.jpg',
+	release_date: '2024-02-23',
+	title: 'La estrella azul',
+	age: '12',
+	video: 'https://www.youtube.com/watch?v=7dhEHcWZy9A',
+	filmAffinity: '7.3',
+	duration: 125,
+	director: 'Javier Macipe',
+	actors: [
+		{
+			name: 'Pepe Lorente',
+			profile_path: '/8xsU8WBl4bNBtLdsTYKvOvdqxGj.jpg'
+		},
+		{
+			name: 'Mariela Carabajal',
+			profile_path: null
+		},
+		{
+			name: 'Noelia Verenice López',
+			profile_path: null
+		},
+		{
+			name: 'Demi Carabajal',
+			profile_path: null
+		},
+		{
+			name: 'Marc Rodríguez',
+			profile_path: '/oWXBlrDVBAfka7ItEy8AJseLI57.jpg'
+		},
+		{
+			name: 'Bruna Cusí',
+			profile_path: '/3yv66ERiyxWwFiFyfKt5BaPbFxZ.jpg'
+		}
+	]
+};
+
+export const SALVE_MARIA = {
+	backdrop_path: '/4ql2qeELm1gBl48KRzitEaYjBnb.jpg',
+	genre_ids: [18],
+	id: 1247597,
+	original_language: 'ca',
+	original_title: 'Salve Maria',
+	overview:
+		'María, una joven escritora que acaba de ser madre, se topa con la noticia de un suceso estremecedor: una mujer francesa ha ahogado a sus gemelos de diez meses en la bañera. María se obsesiona con ello, ¿por qué los mató? A partir de ese momento, la sombra del infanticidio la acechará como una vertiginosa posibilidad.',
+	popularity: 239.265,
+	poster_path: '/c1vxdtbIyKE31mX9znwIsrHJ30S.jpg',
+	release_date: '2024-10-31',
+	title: 'Salve Maria',
+	age: '16',
+	video: 'https://www.youtube.com/watch?v=XBXmIgms6f0',
+	filmAffinity: '6.5',
+	duration: 111,
+	director: 'Mar Coll',
+	actors: [
+		{
+			name: 'Laura Weissmahr',
+			profile_path: '/8RYwW9FwOVQAnjYqiVQ56yJ8CtI.jpg'
+		},
+		{
+			name: 'Oriol Pla',
+			profile_path: '/g41bW9gwGLwj6gLLboX6uuut8HT.jpg'
+		},
+		{
+			name: 'Giannina Fruttero',
+			profile_path: '/lu2qAy9Bt2nMMhdgVY1vFNm0mhf.jpg'
+		},
+		{
+			name: 'Belén Cruz',
+			profile_path: null
+		},
+		{
+			name: 'Karim Belayane',
+			profile_path: null
+		},
+		{
+			name: 'Magali Heu',
+			profile_path: '/kHj5rixvEDagzcGMEcMp7JRdSkA.jpg'
+		}
+	]
+};
+
+export const LA_VIRGEN_ROJA = {
+	backdrop_path: '/dkZVd7FzDTh8C1bAKioQK6ulRZ4.jpg',
+	genre_ids: [18, 36, 53],
+	id: 1118028,
+	original_language: 'es',
+	original_title: 'La virgen roja',
+	overview:
+		'Hildegart es concebida y educada por su madre Aurora para ser la mujer del futuro, para convertirse en una de las mentes más brillantes de la España de los años treinta y uno de los referentes europeos en cuetiones de sexualidad femenina.',
+	popularity: 43.198,
+	poster_path: '/bG0EV4nQcSTsdI0RfC9RbvUGnCg.jpg',
+	release_date: '2024-09-27',
+	title: 'La virgen roja',
+	age: '12',
+	video: 'https://www.youtube.com/watch?v=V8hQYO_BFdE',
+	filmAffinity: '6.8',
+	duration: 114,
+	director: 'Paula Ortiz',
+	actors: [
+		{
+			name: 'Najwa Nimri',
+			profile_path: '/hvLbKkDIT4FqSS8djmW5voNd0O4.jpg'
+		},
+		{
+			name: 'Alba Planas',
+			profile_path: '/b8QkKzOl0q5zddjp9Ti2krr9IAA.jpg'
+		},
+		{
+			name: 'Aixa Villagrán',
+			profile_path: '/4MZ74v3JY1CmKEICqNrBEDVaeOs.jpg'
+		},
+		{
+			name: 'Patrick Criado',
+			profile_path: '/irGL3gnK6EkiL1EsMAEzXkZ58U8.jpg'
+		},
+		{
+			name: 'Pepe Viyuela',
+			profile_path: '/wvrv1mOihEh821u268eiRAwHWYT.jpg'
+		},
+		{
+			name: 'Jon Viar',
+			profile_path: '/9jzdcGcZL72DLW4HL7PHyZIeuzF.jpg'
+		}
+	]
+};
+
+export const MARIPOSAS_NEGRAS = {
+	backdrop_path: '/2hqy5KIyymQScInMggG0uNUvJJI.jpg',
+	genre_ids: [16, 99],
+	id: 1280400,
+	original_language: 'es',
+	original_title: 'Mariposas Negras',
+	overview:
+		'El viaje de tres mujeres que huyen de un terreno inhabitable hacia nuevas vidas que distan mucho de ser acogedoras.',
+	popularity: 2.154,
+	poster_path: '/csifAGt9yVtA8pbVj1lceNn2ZKI.jpg',
+	release_date: '2024-12-05',
+	title: 'Mariposas negras',
+	age: '7',
+	video: 'https://www.youtube.com/watch?v=9PF8ziTZDYg',
+	duration: 83,
+	filmAffinity: '6.9',
+	director: 'David Baute',
+	actors: [
+		{
+			name: 'Laura Gómez',
+			profile_path: '/xdZFWQmttxlpG2aKCYdM7PanDZ2.jpg'
+		},
+		{
+			name: 'Bella Agossou',
+			profile_path: '/dv4DbpIsVVKqkFbDtpbK7N1QM5L.jpg'
+		},
+		{
+			name: 'Miranda Gas',
+			profile_path: '/zS6sF8fwulKUz29ILxPoiSF34tF.jpg'
+		},
+		{
+			name: 'David Comrie',
+			profile_path: null
+		},
+		{
+			name: 'Jean-Didiere Aïssy',
+			profile_path: null
+		},
+		{
+			name: 'Maria Jesús Lleonart',
+			profile_path: null
+		}
+	]
+};
+
+export const SEGUNDO_PREMIO = {
+	backdrop_path: '/gnfj8rc8TDszQKrTfz5rFbOYaPw.jpg',
+	genre_ids: [18, 10402],
+	id: 977548,
+	original_language: 'es',
+	original_title: 'Segundo premio',
+	overview:
+		'Granada, finales de los 90. En plena efervescencia artística y cultural, un grupo de música indie vive su momento más delicado: la bajista rompe con la banda buscando su sitio fuera de la música y el guitarrista está inmerso en una peligrosa espiral de autodestrucción. Mientras, el cantante se enfrenta a un complicado proceso de escritura y grabación de su tercer disco. Nadie sabe que ese disco cambiará para siempre la escena musical de todo el país.',
+	popularity: 8.932,
+	poster_path: '/e2eQxBsDxoqpaYUy5yZosvrBuVz.jpg',
+	release_date: '2024-05-24',
+	title: 'Segundo premio',
+	age: '16',
+	video: 'https://www.youtube.com/watch?v=eKpv5ZHQKN0',
+	filmAffinity: '6.3',
+	duration: 109,
+	director: 'Isaki Lacuesta',
+	actors: [
+		{
+			name: 'Daniel Ibáñez',
+			profile_path: '/d2j4qq0TUasP8if26wIXQOP4kjS.jpg'
+		},
+		{
+			name: 'Cristalino',
+			profile_path: '/assets/images/movies/Segundo_premio/actor_cristalino.jpg'
+		},
+		{
+			name: 'Stéphanie Magnin',
+			profile_path: '/e3aGkokW0JkyzpU71VZEoxm0Kv5.jpg'
+		},
+		{
+			name: 'Eduardo Rejón',
+			profile_path: '/mkaM9kIE5hPle1NWbYqllSt11my.jpg'
+		},
+		{
+			name: 'Mafo',
+			profile_path: '/assets/images/movies/Segundo_premio/actor_mafo.jpg'
+		}
+	]
+};
+
+export const MARCO = {
+	backdrop_path: '/oPhbjXCRg4yGgxmuoDMfYthuQYF.jpg',
+	genre_ids: [18, 36],
+	id: 1195100,
+	original_language: 'es',
+	original_title: 'Marco: la verdad inventada',
+	overview:
+		'Enric Marco, un sindicalista español, afirma ser un superviviente de los campos de concentración nazis.',
+	popularity: 6.859,
+	poster_path: '/k3SrxV0MizLFJAUg9jrLSEBGbuu.jpg',
+	release_date: '2024-11-08',
+	title: 'Marco: la verdad inventada',
+	video: false,
+	filmAffinity: '7.0',
+	duration: 98,
+	director: 'Aitor Arregi',
+	actors: [
+		{
+			name: 'Eduard Fernández',
+			profile_path: '/1oBOegVHnzjNAU3PFsulfYApEb8.jpg'
+		},
+		{
+			name: 'Nathalie Poza',
+			profile_path: '/ebG1AgIEi9WhUxCREmz4WiKoRtV.jpg'
+		},
+		{
+			name: 'Sonia Almarcha',
+			profile_path: '/3dCeLMVuexRKeCIzjwv3c0JCpm6.jpg'
+		},
+		{
+			name: 'Daniela Brown',
+			profile_path: '/6aLrNJte159uzlw2KSkXdmApQBs.jpg'
+		},
+		{
+			name: 'Chani Martín',
+			profile_path: '/rmj6FiM1khtu59M5IsdqOiZt6EZ.jpg'
+		},
+		{
+			name: 'Júlia Molins',
+			profile_path: '/4hAn9uXEaG1DfX3J8grCF8lPwYe.jpg'
+		}
+	]
+};
+
 export const QUEER = {
 	backdrop_path: '/7bUYzlDz8eel1BVL1Y0YcF9NQmd.jpg',
 	genre_ids: ['drama', 'romance'],
 	id: '1059128',
+	age: '18',
 	original_language: 'en',
 	original_title: 'Queer',
 	overview:
@@ -181,6 +588,7 @@ export const LA_ACOMPAÑANTE = {
 	backdrop_path: '/sc1abgWNXc29wSBaerrjGBih06l.jpg',
 	genre_ids: ['sci-fi', 'horror', 'comedy', 'thriller'],
 	id: '1084199',
+	age: '16',
 	original_language: 'en',
 	original_title: 'Companion',
 	overview:
@@ -225,6 +633,7 @@ export const NOSFERATU = {
 	backdrop_path: '/h7r6LZ32dgLwtwSW3CxoWIYD9pr.jpg',
 	genre_ids: ['horror', 'fantasy'],
 	id: '426063',
+	age: '16',
 	original_language: 'en',
 	original_title: 'Nosferatu',
 	overview:
@@ -267,6 +676,7 @@ export const NOSFERATU = {
 export const BABYGIRL = {
 	backdrop_path: '/hctfNoMpQGfn3VXdBYb9p0P5bT5.jpg',
 	genre_ids: ['drama'],
+	age: '18',
 	id: '1097549',
 	original_language: 'en',
 	original_title: 'Babygirl',
@@ -311,6 +721,7 @@ export const LA_SUSTANCIA = {
 	backdrop_path: '/9oYdz5gDoIl8h67e3ccv3OHtmm2.jpg',
 	genre_ids: ['horror', 'sci-fi', 'comedy'],
 	id: '933260',
+	age: '18',
 	original_language: 'en',
 	original_title: 'The Substance',
 	overview:
@@ -371,6 +782,7 @@ export const FLOW = {
 	backdrop_path: '/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg',
 	genre_ids: ['animation', 'fantasy', 'adventure'],
 	id: '823219',
+	age: 'A',
 	original_language: 'lv',
 	original_title: 'Straume',
 	overview:
@@ -390,6 +802,7 @@ export const ROBOT_SALVAJE = {
 	genre_ids: ['animation', 'sci-fi', 'family'],
 	id: '1184918',
 	original_language: 'en',
+	age: 'A',
 	original_title: 'The Wild Robot',
 	overview:
 		'Esta aventura épica cuenta la historia de una robot, Rozzum 7-1-3-4, "Roz" para abreviar, que naufraga en una isla inhabitada y debe aprender a adaptarse a los entornos rigurosos construyendo relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de una cría de ganso huérfana.',
@@ -435,6 +848,7 @@ export const MEMORIAS_DE_UN_CARACOL = {
 	],
 	genre_ids: ['animation', 'drama', 'comedy'],
 	id: '1064486',
+	age: '18',
 	original_language: 'en',
 	original_title: 'Memoir of a Snail',
 	overview:
@@ -480,6 +894,7 @@ export const ANORA = {
 	],
 	genre_ids: ['drama', 'comedy', 'romance'],
 	id: '1064213',
+	age: '18',
 	original_language: 'en',
 	original_title: 'Anora',
 	overview:
@@ -523,6 +938,7 @@ export const MARIA_CALLAS = {
 	backdrop_path: '/9iw4a6AQkxUO3EuRn59Vgrqf0zO.jpg',
 	genre_ids: ['drama', 'music'],
 	id: '1038263',
+	age: '18',
 	original_language: 'en',
 	original_title: 'Maria',
 	overview:
@@ -538,6 +954,7 @@ export const TU_COLOR = {
 	backdrop_path: '/mFC52cN0oz1WqTXR0jRT69oHKTp.jpg',
 	genre_ids: ['animation', 'drama', 'music'],
 	id: '1056444',
+	age: '12',
 	original_language: 'ja',
 	original_title: 'きみの色',
 	overview:
@@ -554,6 +971,7 @@ export const BETTER_MAN = {
 	backdrop_path: '/5UiYxRw2PMCb0BLCJ8M2cJonztS.jpg',
 	genre_ids: ['music', 'drama'],
 	id: '799766',
+	age: '16',
 	original_language: 'en',
 	original_title: 'Better Man',
 	overview:
@@ -570,6 +988,7 @@ export const VERMIGLIO = {
 	backdrop_path: '/mxfUKewelcGm61cN9Yx5lYzCMze.jpg',
 	genre_ids: ['drama'],
 	id: '1151244',
+	age: 'NR',
 	original_language: 'it',
 	original_title: 'Vermiglio',
 	overview:
@@ -586,6 +1005,7 @@ export const SEPTEMBER_5 = {
 	backdrop_path: '/nEH7XUCeWsEuJtGgWUVUl6MEQW0.jpg',
 	genre_ids: ['drama', 'thriller', 'history'],
 	id: '1211472',
+	age: '18',
 	original_language: 'en',
 	original_title: 'September 5',
 	overview:
@@ -601,6 +1021,7 @@ export const PRESENCE = {
 	backdrop_path: '/st9M4O4imOuQVU35RMeYuEQfkvD.jpg',
 	genre_ids: ['drama', 'mystery', 'horror'],
 	id: '1140535',
+	age: '18',
 	original_language: 'en',
 	original_title: 'Presence',
 	overview:
@@ -616,6 +1037,7 @@ export const MICKEY_17 = {
 	backdrop_path: '/2P0PUkQ1tNHNYTEmtbBmM8MfXBG.jpg',
 	genre_ids: ['sci-fi', 'comedy'],
 	id: '696506',
+	age: '16',
 	original_language: 'en',
 	original_title: 'Mickey 17',
 	overview:
@@ -631,6 +1053,7 @@ export const LEE_MILLER = {
 	backdrop_path: '/yjPXIgY3QoHe8Kt8nEJCz97UF3q.jpg',
 	genre_ids: ['history', 'drama', 'war'],
 	id: '832964',
+	age: '16',
 	original_language: 'en',
 	original_title: 'Lee',
 	overview:
@@ -646,6 +1069,7 @@ export const LA_CHICA_DE_LA_AGUJA = {
 	backdrop_path: '/xPPBElHCcNQ7H3aXdLptykKxyZ1.jpg',
 	genre_ids: ['drama', 'history', 'thriller'],
 	id: '1232827',
+	age: '16',
 	original_language: 'da',
 	original_title: 'Pigen med nålen',
 	overview:
