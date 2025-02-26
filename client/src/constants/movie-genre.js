@@ -37,3 +37,45 @@ export const MOVIE_GENRES = {
 
 	37: 'western'
 };
+
+export const GENEROS = [
+	'Acción',
+
+	'Aventura',
+
+	'Animación',
+
+	'Comedia',
+
+	'Crimen',
+
+	'Documental',
+
+	'Drama',
+
+	'Familiar',
+
+	'Fantasía',
+
+	'Historia',
+
+	'Terror',
+
+	'Musical',
+
+	'Misterio',
+
+	'Romance',
+
+	'Sci-fi',
+
+	'Thriller'
+];
+
+export const EDAD = [
+	'Todos los públicos',
+	'+7 años',
+	'+12 años',
+	'+16 años',
+	'+18 años'
+];

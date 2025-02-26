@@ -21,7 +21,6 @@ const StyledImgContainer = styled.div`
 	border-radius: 7px;
 	position: relative;
 	box-shadow: 5px 18px 30px 0px rgb(35 11 74 / 0.7);
-	border: 1px solid red;
 	overflow: hidden;
 
 	@media screen and (width>768px) {
@@ -35,10 +34,16 @@ const StyledImg = styled.img`
 	width: fit-content;
 	object-fit: cover;
 	height: 100%;
+	width: 100%;
 `;
 
 const StyledBookIcon = styled.img`
 	position: absolute;
+	width: 40px;
+	right: 8px;
+	@media screen and (width>768px) {
+		width: 64px;
+	}
 `;
 
 const StyledMovieTittle = styled.h2`

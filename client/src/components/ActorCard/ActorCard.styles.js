@@ -7,6 +7,7 @@ const StyledCard = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	gap: 8px;
+	flex-shrink: 0;
 	@media screen and (width>768px) {
 		gap: 12px;
 	}

@@ -21,11 +21,11 @@ const MovieCardBlock = ({ title, poster_path, genre_ids, id }) => {
 				<StyledImgContainer>
 					<Tag
 						type='genre'
-						size={GENRE_TAGS[genre].size.M_MOV}
+						size={GENRE_TAGS[genre].size.L_MOV}
 						values={GENRE_TAGS[genre]}
 						position='absolute'
 					></Tag>
-					<StyledBookIcon src='' />
+					<StyledBookIcon src='/assets/images/Icons/GuardarOffLight.png' />
 					<StyledImg
 						src={`https://image.tmdb.org/t/p/original${poster_path}`}
 					/>

@@ -12,43 +12,52 @@ export const AGE_SIZES = {
 		fontSize: '2rem'
 	},
 	L_MOV: {
-		width: '40px',
-		height: '40px',
-		fontSize: '3rem'
+		width: 'fit content',
+		height: '44px',
+		fontSize: '20px'
 	}
 };
 
 export const AGE_TAGS = {
 	A: {
 		text: 'A',
-		color: COLORS.pastelGreen
+		color: COLORS.pastelGreen,
+		size: AGE_SIZES
 	},
 	7: {
 		text: '+7',
-		color: COLORS.pastelBlue
+		color: COLORS.pastelBlue,
+		size: AGE_SIZES
 	},
 	12: {
 		text: '+12',
-		color: COLORS.pastelOrange
+		color: COLORS.pastelOrange,
+		size: AGE_SIZES
 	},
 	16: {
 		text: '+16',
-		color: COLORS.pastelPink
+		color: COLORS.pastelViolet,
+		size: AGE_SIZES
+	},
+	18: {
+		text: '+18',
+		color: COLORS.pastelPink,
+		size: AGE_SIZES
 	}
 };
 
 export const GENRE_SIZES = {
 	S_MOV: {
 		height: '27px',
-		fontSize: '1rem'
+		fontSize: '14px'
 	},
 	M_MOV: {
 		height: '32px',
-		fontSize: '2rem'
+		fontSize: '18px'
 	},
 	L_MOV: {
-		height: '60px',
-		fontSize: '3rem'
+		height: '44px',
+		fontSize: '20px'
 	}
 };
 
@@ -70,7 +79,7 @@ export const GENRE_TAGS = {
 	},
 	comedy: {
 		text: 'Comedia',
-		color: COLORS.pastelOrange,
+		color: COLORS.pastelBlue,
 		size: GENRE_SIZES
 	},
 	crime: {
@@ -90,7 +99,7 @@ export const GENRE_TAGS = {
 	},
 	family: {
 		text: 'Familiar',
-		color: COLORS.pastelBlue,
+		color: COLORS.pastelOrange,
 		size: GENRE_SIZES
 	},
 	fantasy: {
@@ -125,7 +134,7 @@ export const GENRE_TAGS = {
 	},
 	'sci-fi': {
 		text: 'Ciencia ficción',
-		color: COLORS.pastelViolet,
+		color: COLORS.pastelGreen,
 		size: GENRE_SIZES
 	},
 	'tv-movie': {
@@ -135,7 +144,7 @@ export const GENRE_TAGS = {
 	},
 	thriller: {
 		text: 'Suspense',
-		color: COLORS.pastelPink,
+		color: COLORS.pastelOrange,
 		size: GENRE_SIZES
 	},
 	war: {

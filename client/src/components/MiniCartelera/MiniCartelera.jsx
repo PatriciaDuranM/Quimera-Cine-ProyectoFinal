@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {
 	StyledButton,
 	StyledCarrusel,
@@ -16,7 +17,9 @@ const MiniCartelera = () => {
 				<StyledFilm />
 				<StyledFilm />
 			</StyledCarrusel>
-			<StyledButton>Ver Cartelera</StyledButton>
+			<Link to='/cartelera'>
+				<StyledButton>Ver Cartelera</StyledButton>
+			</Link>
 		</StyledDiv>
 	);
 };

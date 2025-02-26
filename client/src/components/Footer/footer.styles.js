@@ -13,6 +13,7 @@ const StyledFooter = styled.footer`
 	justify-content: space-between;
 	align-items: center;
 	background-color: ${COLORS.pink};
+	margin-top: auto;
 
 	@media screen and (width>786px) {
 		height: 160px;

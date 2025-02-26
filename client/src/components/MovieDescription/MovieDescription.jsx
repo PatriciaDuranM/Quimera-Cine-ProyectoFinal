@@ -1,12 +1,11 @@
-import MovieText from '../MovieText/MovieText';
-import MovieTitles from '../MovieTitles/MovieTitles';
-import { StyledDiv } from './MovieDescription.styles';
+import { StyledDiv, StyledText, StyledTitle } from './MovieDescription.styles';
 
 const MovieDescription = ({ title, text }) => {
 	return (
 		<StyledDiv>
-			<MovieTitles>{title}</MovieTitles>
-			<MovieText>{text}</MovieText>
+			<StyledTitle>{title + ': '}</StyledTitle>
+
+			<StyledText>{text}</StyledText>
 		</StyledDiv>
 	);
 };

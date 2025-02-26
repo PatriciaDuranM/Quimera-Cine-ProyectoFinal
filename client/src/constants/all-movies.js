@@ -3,7 +3,7 @@ export const PAST_LIVES = {
 	age: '12',
 	backdrop_path: '/7HR38hMBl23lf38MAN63y4pKsHz.jpg',
 	genre_ids: ['drama', 'romance'],
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Past Lives',
 	overview: [
 		'La familia de Nora emigra a Canadá cuando ella tiene 10 años. Pierde el contacto con su amor de la infancia.',
@@ -16,6 +16,11 @@ export const PAST_LIVES = {
 	filmAffinity: 7.2,
 	director: 'Celine Song',
 	duration: 106,
+	banners: [
+		'/assets/images/movies/Vidas_pasadas/banner1_pastlives.jpg',
+		'/assets/images/movies/Vidas_pasadas/banner2_pastlives.jpg',
+		'/assets/images/movies/Vidas_pasadas/banner3_pastlives.jpg'
+	],
 	actors: [
 		{
 			name: 'Greta Lee',
@@ -48,7 +53,7 @@ export const LOVE_LIES_BLEEDING = {
 	genre_ids: ['romance', 'crime', 'thriller'],
 	id: '948549',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Love Lies Bleeding',
 	overview:
 		'Jackie está decidida a triunfar como culturista y se dirige a Las Vegas para participar en una competición. En su camino, pasa por un pequeño pueblo de Nuevo México donde conoce a Lou, la solitaria gerente del gimnasio local. El padre de Lou es traficante de armas y lleva las riendas de un sindicato del crimen. Jackie y Lou se enamoran. Pero su relación provoca violencia y ambas se ven inmersas en las maquinaciones de la familia de Lou.',
@@ -60,6 +65,11 @@ export const LOVE_LIES_BLEEDING = {
 	filmAffinity: 6.3,
 	director: 'Rose Glass',
 	duration: 104,
+	banners: [
+		'/assets/images/movies/Love_lies_bleeding/banner1_lovelies.jpg',
+		'/assets/images/movies/Love_lies_bleeding/banner2_lovelies.jpg',
+		'/assets/images/movies/Love_lies_bleeding/banner3_lovelies.jpg'
+	],
 	actors: [
 		{
 			name: 'Kristen Stewart',
@@ -92,12 +102,9 @@ export const LOVE_LIES_BLEEDING = {
 export const EL_47 = {
 	backdrop_path: '/4fKEH1eeLv6NsLD4adCsFqJaRo0.jpg',
 	genre_ids: ['crime', 'drama'],
-	banners: [
-		'https://media.themoviedb.org/t/p/w500_and_h282_face/4cp40IyTpFfsT2IKpl0YlUkMBIR.jpg'
-	],
 	id: '1174481',
 	age: '7',
-	original_language: 'ca',
+	original_language: 'Catalán',
 	original_title: 'El 47',
 	overview:
 		'Un acto de disidencia pacífica y el movimiento vecinal de base en 1978 transformó Barcelona y cambió la imagen de sus suburbios para siempre. Manolo Vital, un conductor de autobús que se adueñó del bus de la línea 47 para desmontar una mentira que el Ayuntamiento se empeñaba en repetir: los autobuses no podían subir las cuestas del distrito de Torre Baró. Un acto de rebeldía que demostró ser un catalizador para el cambio, de que las personas se enorgullecen de sus raíces, de una lucha del vecindario, de la clase trabajadora que ayudó a crear la Barcelona moderna de los años setenta.',
@@ -108,6 +115,11 @@ export const EL_47 = {
 	filmAffinity: 7.2,
 	director: 'Marcel Barrena',
 	duration: 110,
+	banners: [
+		'/assets/images/movies/47/banner1_47.jpg',
+		'/assets/images/movies/47/banner2_47.jpg',
+		'/assets/images/movies/47/banner3_47.jpg'
+	],
 	actors: [
 		{
 			name: 'Eduard Fernández',
@@ -139,9 +151,9 @@ export const EL_47 = {
 
 export const LA_INFILTRADA = {
 	backdrop_path: '/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg',
-	genre_ids: [18, 80, 53],
+	genre_ids: ['drama', 'crime', 'thriller'],
 	id: 1215185,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'La infiltrada',
 	overview:
 		'País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.',
@@ -154,6 +166,11 @@ export const LA_INFILTRADA = {
 	filmAffinity: '7.1',
 	age: '12',
 	duration: '119',
+	banners: [
+		'/assets/images/movies/La_infiltrada/banner1_lainfiltrada.jpg',
+		'/assets/images/movies/La_infiltrada/banner2_lainfiltrada.jpg',
+		'/assets/images/movies/La_infiltrada/banner3_lainfiltrada.jpg'
+	],
 	actors: [
 		{
 			name: 'Carolina Yuste',
@@ -185,9 +202,9 @@ export const LA_INFILTRADA = {
 export const CASA_EN_FLAMES = {
 	adult: false,
 	backdrop_path: '/8xVvEvOrtxVSWN3wpIdHozozyMb.jpg',
-	genre_ids: [35],
+	genre_ids: ['comedy'],
 	id: 1218193,
-	original_language: 'ca',
+	original_language: 'Catalán',
 	original_title: 'Casa en flames',
 	overview:
 		'Montse, divorciada y con dos hijos que hace tiempo que la ignoran, se prepara para una reunión familiar en su casa de la Costa Brava.',
@@ -200,6 +217,11 @@ export const CASA_EN_FLAMES = {
 	age: '16',
 	duration: 108,
 	director: 'Dani de la Orden',
+	banners: [
+		'/assets/images/movies/Casa_llamas/banner1_casallamas.jpg',
+		'/assets/images/movies/Casa_llamas/banner2_casallamas.jpg',
+		'/assets/images/movies/Casa_llamas/banner3_casallamas.jpg'
+	],
 	actors: [
 		{
 			name: 'Emma Vilarasau',
@@ -230,9 +252,9 @@ export const CASA_EN_FLAMES = {
 
 export const LA_HABITACION_DE_AL_LADO = {
 	backdrop_path: '/9Xx0BCkxDsF47niAPsb8lQ0O9Qu.jpg',
-	genre_ids: [18],
+	genre_ids: ['drama'],
 	id: 1088514,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'La habitación de al lado',
 	overview:
 		'Ingrid, una exitosa novelista de autoficción que, se entera de que su amiga Martha, reportera de guerra, padece una grave enfermedad. Muy amigas en su juventud, aunque separadas desde hace tiempo, la cercana muerte de Martha volverá a unirlas.',
@@ -245,6 +267,7 @@ export const LA_HABITACION_DE_AL_LADO = {
 	filmAffinity: '6.3',
 	duration: 106,
 	director: 'Pedro Almodóvar',
+	banners: ['', '', ''],
 	actors: [
 		{
 			name: 'Julianne Moore',
@@ -275,9 +298,9 @@ export const LA_HABITACION_DE_AL_LADO = {
 
 export const LA_ESTRELLA_AZUL = {
 	backdrop_path: '/viPfna8tjU7eEI4GMBGGNMXlx0h.jpg',
-	genre_ids: [10402, 18],
+	genre_ids: ['music', 'drama'],
 	id: 1160878,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'La estrella azul',
 	overview:
 		'Años 90. Mauricio, un famoso rockero español recorre Latinoamérica buscando reencontrarse con su vocación. Allí conoce a Don Carlos, un anciano músico en horas bajas que, a pesar de ser autor de algunas de las canciones más famosas del folclore de su país, apenas consigue pagar sus facturas. Carlos acoge con generosidad al extraño visitante haciendo las veces de maestro Miyagi musical. De su encuentro nace un extravagante dúo quijotesco, con todos los visos de ser un absoluto fracaso comercial.',
@@ -290,6 +313,7 @@ export const LA_ESTRELLA_AZUL = {
 	filmAffinity: '7.3',
 	duration: 125,
 	director: 'Javier Macipe',
+	banners: ['', '', ''],
 	actors: [
 		{
 			name: 'Pepe Lorente',
@@ -320,9 +344,9 @@ export const LA_ESTRELLA_AZUL = {
 
 export const SALVE_MARIA = {
 	backdrop_path: '/4ql2qeELm1gBl48KRzitEaYjBnb.jpg',
-	genre_ids: [18],
+	genre_ids: ['drama'],
 	id: 1247597,
-	original_language: 'ca',
+	original_language: 'Catalán',
 	original_title: 'Salve Maria',
 	overview:
 		'María, una joven escritora que acaba de ser madre, se topa con la noticia de un suceso estremecedor: una mujer francesa ha ahogado a sus gemelos de diez meses en la bañera. María se obsesiona con ello, ¿por qué los mató? A partir de ese momento, la sombra del infanticidio la acechará como una vertiginosa posibilidad.',
@@ -335,6 +359,7 @@ export const SALVE_MARIA = {
 	filmAffinity: '6.5',
 	duration: 111,
 	director: 'Mar Coll',
+	banners: ['', '', ''],
 	actors: [
 		{
 			name: 'Laura Weissmahr',
@@ -365,9 +390,9 @@ export const SALVE_MARIA = {
 
 export const LA_VIRGEN_ROJA = {
 	backdrop_path: '/dkZVd7FzDTh8C1bAKioQK6ulRZ4.jpg',
-	genre_ids: [18, 36, 53],
+	genre_ids: ['drama', 'history', 'thriller'],
 	id: 1118028,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'La virgen roja',
 	overview:
 		'Hildegart es concebida y educada por su madre Aurora para ser la mujer del futuro, para convertirse en una de las mentes más brillantes de la España de los años treinta y uno de los referentes europeos en cuetiones de sexualidad femenina.',
@@ -380,6 +405,7 @@ export const LA_VIRGEN_ROJA = {
 	filmAffinity: '6.8',
 	duration: 114,
 	director: 'Paula Ortiz',
+	banners: ['', '', ''],
 	actors: [
 		{
 			name: 'Najwa Nimri',
@@ -410,9 +436,9 @@ export const LA_VIRGEN_ROJA = {
 
 export const MARIPOSAS_NEGRAS = {
 	backdrop_path: '/2hqy5KIyymQScInMggG0uNUvJJI.jpg',
-	genre_ids: [16, 99],
+	genre_ids: ['animation', 'documentary'],
 	id: 1280400,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'Mariposas Negras',
 	overview:
 		'El viaje de tres mujeres que huyen de un terreno inhabitable hacia nuevas vidas que distan mucho de ser acogedoras.',
@@ -425,6 +451,9 @@ export const MARIPOSAS_NEGRAS = {
 	duration: 83,
 	filmAffinity: '6.9',
 	director: 'David Baute',
+	banners: [
+		'/assets/images/movies/Mariposas_negras/banner1_mariposasnegras.webp'
+	],
 	actors: [
 		{
 			name: 'Laura Gómez',
@@ -455,9 +484,9 @@ export const MARIPOSAS_NEGRAS = {
 
 export const SEGUNDO_PREMIO = {
 	backdrop_path: '/gnfj8rc8TDszQKrTfz5rFbOYaPw.jpg',
-	genre_ids: [18, 10402],
+	genre_ids: ['drama', 'music'],
 	id: 977548,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'Segundo premio',
 	overview:
 		'Granada, finales de los 90. En plena efervescencia artística y cultural, un grupo de música indie vive su momento más delicado: la bajista rompe con la banda buscando su sitio fuera de la música y el guitarrista está inmerso en una peligrosa espiral de autodestrucción. Mientras, el cantante se enfrenta a un complicado proceso de escritura y grabación de su tercer disco. Nadie sabe que ese disco cambiará para siempre la escena musical de todo el país.',
@@ -470,6 +499,11 @@ export const SEGUNDO_PREMIO = {
 	filmAffinity: '6.3',
 	duration: 109,
 	director: 'Isaki Lacuesta',
+	banners: [
+		'/assets/images/movies/Segundo_premio/banne1_segundopremio.jpg',
+		'/assets/images/movies/Segundo_premio/banne2_segundopremio.jpg',
+		'/assets/images/movies/Segundo_premio/banne3_segundopremio.jpg'
+	],
 	actors: [
 		{
 			name: 'Daniel Ibáñez',
@@ -496,9 +530,9 @@ export const SEGUNDO_PREMIO = {
 
 export const MARCO = {
 	backdrop_path: '/oPhbjXCRg4yGgxmuoDMfYthuQYF.jpg',
-	genre_ids: [18, 36],
+	genre_ids: ['drama', 'history'],
 	id: 1195100,
-	original_language: 'es',
+	original_language: 'Español',
 	original_title: 'Marco: la verdad inventada',
 	overview:
 		'Enric Marco, un sindicalista español, afirma ser un superviviente de los campos de concentración nazis.',
@@ -506,10 +540,11 @@ export const MARCO = {
 	poster_path: '/k3SrxV0MizLFJAUg9jrLSEBGbuu.jpg',
 	release_date: '2024-11-08',
 	title: 'Marco: la verdad inventada',
-	video: false,
+	video: 'https://www.youtube.com/watch?v=bhYXrXO0aPk',
 	filmAffinity: '7.0',
 	duration: 98,
 	director: 'Aitor Arregi',
+	banners: ['', '', ''],
 	actors: [
 		{
 			name: 'Eduard Fernández',
@@ -543,7 +578,7 @@ export const QUEER = {
 	genre_ids: ['drama', 'romance'],
 	id: '1059128',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Queer',
 	overview:
 		'1950. William Lee, un expatriado estadounidense de unos 50 años en Ciudad de México, pasa sus días casi solo, salvo algunos contactos con otros miembros de la pequeña comunidad estadounidense. Su encuentro con Eugene Allerton, un joven estudiante recién llegado a la ciudad, le muestra, por primera vez, que finalmente podría ser posible establecer una conexión íntima con alguien.',
@@ -555,6 +590,11 @@ export const QUEER = {
 	filmAffinity: 6.0,
 	director: 'Luca Guadagnino',
 	duration: 136,
+	banners: [
+		'/assets/images/movies/Queer/banner1_queer.jpg',
+		'/assets/images/movies/Queer/banner2_queer.jpg',
+		'/assets/images/movies/Queer/banner3_queer.jpg'
+	],
 	actors: [
 		{
 			name: 'Daniel Craig',
@@ -589,7 +629,7 @@ export const LA_ACOMPAÑANTE = {
 	genre_ids: ['sci-fi', 'horror', 'comedy', 'thriller'],
 	id: '1084199',
 	age: '16',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Companion',
 	overview:
 		'La muerte de un multimillonario desencadena una cadena de acontecimientos para Iris y sus amigos durante un viaje de fin de semana a su propiedad junto al lago.',
@@ -600,6 +640,11 @@ export const LA_ACOMPAÑANTE = {
 	filmAffinity: 6.5,
 	director: 'Drew Hancock',
 	duration: 97,
+	banners: [
+		'/assets/images/movies/La_acompañante/banner1_acompañante.jpg',
+		'/assets/images/movies/La_acompañante/banner2_acompañante.jpg',
+		'/assets/images/movies/La_acompañante/banner3_acompañante.jpg'
+	],
 	actors: [
 		{
 			name: 'Sophie Thatcher',
@@ -634,7 +679,7 @@ export const NOSFERATU = {
 	genre_ids: ['horror', 'fantasy'],
 	id: '426063',
 	age: '16',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Nosferatu',
 	overview:
 		'Historia gótica de obsesión entre una joven hechizada y el aterrador vampiro encaprichado de ella que causa un indescriptible terror a su paso.',
@@ -646,6 +691,11 @@ export const NOSFERATU = {
 	filmAffinity: 6.8,
 	director: 'Robert Eggers',
 	duration: 133,
+	banners: [
+		'/assets/images/movies/Nosferatu/banner1_nosferatu.jpg',
+		'/assets/images/movies/Nosferatu/banner2_nosferatu.jpg',
+		'/assets/images/movies/Nosferatu/banner3_nosferatu.jpg'
+	],
 	actors: [
 		{
 			name: 'Lily-Rose Depp',
@@ -678,7 +728,7 @@ export const BABYGIRL = {
 	genre_ids: ['drama'],
 	age: '18',
 	id: '1097549',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Babygirl',
 	overview:
 		'Una alta ejecutiva pone en peligro su carrera y su familia cuando inicia un tórrido romance con su becario, mucho más joven que ella.',
@@ -690,6 +740,11 @@ export const BABYGIRL = {
 	filmAffinity: 5.4,
 	director: 'Halina Reijn',
 	duration: 114,
+	banners: [
+		'/assets/images/movies/Babygirl/banner1_babygirl.jpg',
+		'/assets/images/movies/Babygirl/banner2_babygirl.jpg',
+		'/assets/images/movies/Babygirl/banner3_babygirl.jpg'
+	],
 	actors: [
 		{
 			name: 'Nicole Kidman',
@@ -722,7 +777,7 @@ export const LA_SUSTANCIA = {
 	genre_ids: ['horror', 'sci-fi', 'comedy'],
 	id: '933260',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'The Substance',
 	overview:
 		"'Tú, pero mejor en todos los sentidos'. Esa es la promesa de la sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto.",
@@ -734,6 +789,11 @@ export const LA_SUSTANCIA = {
 	filmAffinity: 6.6,
 	director: 'Coralie Fargeat',
 	duration: 141,
+	banners: [
+		'/assets/images/movies/La_sustancia/banner1_sustancia.jpg',
+		'/assets/images/movies/La_sustancia/banner2_sustancia.jpg',
+		'/assets/images/movies/La_sustancia/banner3_sustancia.jpg'
+	],
 	actors: [
 		{
 			name: 'Demi Moore',
@@ -765,7 +825,7 @@ export const WAR_ROHIRRIM = {
 	backdrop_path: '/ie8OSgIHEl6yQiGJ90dsyBWOpQA.jpg',
 	genre_ids: ['animation', 'fantasy', 'adventure', 'family', 'action'],
 	id: '839033',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'The Lord of the Rings: The War of the Rohirrim',
 	overview:
 		'Explora la "historia no contada" del Abismo de Helm, cientos de años antes de la mítica batalla, y de su fundador, Helm Hammerhand, Rey de Rohan.',
@@ -791,9 +851,14 @@ export const FLOW = {
 	poster_path: '/337MqZW7xii2evUDVeaWXAtopff.jpg',
 	release_date: '2024-08-29',
 	title: 'Flow, un mundo que salvar',
-	video: false,
+	video: 'https://www.youtube.com/watch?v=l5zSgSuIDU4',
 	director: 'Gints Zilbalodis',
 	duration: 85,
+	banners: [
+		'/assets/images/movies/FLOW/banner1_flow.jpg',
+		'/assets/images/movies/FLOW/banner2_flow.jpg',
+		'/assets/images/movies/FLOW/banner3_flow.jpg'
+	],
 	actors: []
 };
 
@@ -801,7 +866,7 @@ export const ROBOT_SALVAJE = {
 	backdrop_path: '/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg',
 	genre_ids: ['animation', 'sci-fi', 'family'],
 	id: '1184918',
-	original_language: 'en',
+	original_language: 'Inglés',
 	age: 'A',
 	original_title: 'The Wild Robot',
 	overview:
@@ -810,9 +875,14 @@ export const ROBOT_SALVAJE = {
 	poster_path: '/a0a7RC01aTa7pOnskgJb3mCD2Ba.jpg',
 	release_date: '2024-09-12',
 	title: 'Robot salvaje',
-	video: false,
+	video: 'https://www.youtube.com/watch?v=4zWux-Bqt40',
 	director: 'Chris Sanders',
 	duration: 102,
+	banners: [
+		'/assets/images/movies/Robot_salvaje/banner1_robotsalvaje.jpg',
+		'/assets/images/movies/Robot_salvaje/banner2_robotsalvaje.jpg',
+		'/assets/images/movies/Robot_salvaje/banner3_robotsalvaje.jpg'
+	],
 	actors: [
 		{
 			name: "Lupita Nyong'o",
@@ -843,13 +913,10 @@ export const ROBOT_SALVAJE = {
 
 export const MEMORIAS_DE_UN_CARACOL = {
 	backdrop_path: '/i3CAo9UMGsvlU9k3Svd63rRDeZx.jpg',
-	banners: [
-		'https://media.themoviedb.org/t/p/w500_and_h282_face/4cp40IyTpFfsT2IKpl0YlUkMBIR.jpg'
-	],
 	genre_ids: ['animation', 'drama', 'comedy'],
 	id: '1064486',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Memoir of a Snail',
 	overview:
 		'Separada a la fuerza de su hermano gemelo cuando quedan huérfanos, una melancólica inadaptada aprende a encontrar la confianza en sí misma en medio del desorden de las desgracias y la vida cotidiana.',
@@ -857,9 +924,14 @@ export const MEMORIAS_DE_UN_CARACOL = {
 	poster_path: '/sd8gt0GxVPruTQym9qgxFPzIDO9.jpg',
 	release_date: '2024-10-17',
 	title: 'Memorias de un caracol',
-	video: false,
+	video: 'https://www.youtube.com/watch?v=TpDWVaBlpJE',
 	director: 'Adam Elliot',
 	duration: 94,
+	banners: [
+		'/assets/images/movies/Memorias_caracol/banner1_memoriascaracol.jpg',
+		'/assets/images/movies/Memorias_caracol/banner2_memoriascaracol.jpg',
+		'/assets/images/movies/Memorias_caracol/banner3_memoriascaracol.jpg'
+	],
 	actors: [
 		{
 			name: 'Sarah Snook',
@@ -889,13 +961,10 @@ export const MEMORIAS_DE_UN_CARACOL = {
 };
 export const ANORA = {
 	backdrop_path: '/kEYWal656zP5Q2Tohm91aw6orlT.jpg',
-	banners: [
-		'https://media.themoviedb.org/t/p/w500_and_h282_face/4cp40IyTpFfsT2IKpl0YlUkMBIR.jpg'
-	],
 	genre_ids: ['drama', 'comedy', 'romance'],
 	id: '1064213',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Anora',
 	overview:
 		'Anora, una joven prostituta de Brooklyn, tiene la oportunidad de vivir una historia de Cenicienta cuando conoce e impulsivamente se casa con el hijo de un oligarca. Cuando la noticia llega a Rusia, su cuento de hadas se ve amenazado, ya que los padres parten hacia Nueva York para intentar conseguir la anulación del matrimonio.',
@@ -903,9 +972,14 @@ export const ANORA = {
 	poster_path: '/n5wEFSLkm2fCtN0FVAuphrCAjf8.jpg',
 	release_date: '2024-10-14',
 	title: 'Anora',
-	video: false,
+	video: 'https://www.youtube.com/watch?v=8m6UrWMl18M',
 	director: 'Sean Baker',
 	duration: 139,
+	banners: [
+		'/assets/images/movies/anora/banner1_anora.jpg',
+		'/assets/images/movies/anora/banner2_anora.jpg',
+		'/assets/images/movies/anora/banner3_anora.jpg'
+	],
 	actors: [
 		{
 			name: 'Mikey Madison',
@@ -939,7 +1013,7 @@ export const MARIA_CALLAS = {
 	genre_ids: ['drama', 'music'],
 	id: '1038263',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Maria',
 	overview:
 		'Sigue la vida de la mayor cantante de ópera del mundo, Maria Callas, durante sus últimos días en el París de los años setenta.',
@@ -947,7 +1021,12 @@ export const MARIA_CALLAS = {
 	poster_path: '/i73L05MR1v2mvJEBw0hzt1XULIQ.jpg',
 	release_date: '2024-11-27',
 	title: 'María Callas',
-	video: false
+	banners: [
+		'/assets/images/movies/Maria_Callas/banner1_mariacallas.jpg',
+		'/assets/images/movies/Maria_Callas/banner2_mariacallas.jpg',
+		'/assets/images/movies/Maria_Callas/banner3_mariacallas.jpg'
+	],
+	video: 'https://www.youtube.com/watch?v=du4L5ikk5Ms'
 };
 
 export const TU_COLOR = {
@@ -955,7 +1034,7 @@ export const TU_COLOR = {
 	genre_ids: ['animation', 'drama', 'music'],
 	id: '1056444',
 	age: '12',
-	original_language: 'ja',
+	original_language: 'Japonés',
 	original_title: 'きみの色',
 	overview:
 		'Totsuko es una estudiante de secundaria con la capacidad de ver los “colores” de los demás. Colores de felicidad, emoción y serenidad, además de un color que ella atesora como su favorito. Un día, forma una banda con Kimi, una compañera de clase que emite el color más hermoso de todos, y Rui, un amante de la música a quien conoce en una librería de segunda mano. Mientras ensayan en una antigua iglesia en una isla remota, la música les acaba uniendo.',
@@ -963,7 +1042,12 @@ export const TU_COLOR = {
 	poster_path: '/5YWTtiKFugxEbCZEdrrU70gVGdW.jpg',
 	release_date: '2024-08-30',
 	title: 'Tu color',
-	video: false
+	banners: [
+		'/assets/images/movies/Tu_color/banner1_tucolor.jpg',
+		'/assets/images/movies/Tu_color/banner2_tucolor.jpg',
+		'/assets/images/movies/Tu_color/banner3_tucolor.jpg'
+	],
+	video: 'https://www.youtube.com/watch?v=r8e-a8GQPhw'
 };
 
 export const BETTER_MAN = {
@@ -972,7 +1056,7 @@ export const BETTER_MAN = {
 	genre_ids: ['music', 'drama'],
 	id: '799766',
 	age: '16',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Better Man',
 	overview:
 		'La vida y las experiencias del cantante Robbie Williams caracterizado como un simio.',
@@ -980,7 +1064,8 @@ export const BETTER_MAN = {
 	poster_path: '/otXaS8K5coAwmUyGxBsNz9mWs8H.jpg',
 	release_date: '2024-12-14',
 	title: 'Better Man',
-	video: false
+	video: 'https://www.youtube.com/watch?v=KVeH5T4wxkE',
+	banners: ['', '', '']
 };
 
 export const VERMIGLIO = {
@@ -997,7 +1082,12 @@ export const VERMIGLIO = {
 	poster_path: '/jVd5lH1wbYqEY8YEoT4nbPpZXhB.jpg',
 	release_date: '2024-09-19',
 	title: 'Vermiglio',
-	video: false
+	video: 'https://www.youtube.com/watch?v=701RfY55ppQ',
+	banners: [
+		'/assets/images/movies/Vermiglio/banner1_vermiglio.jpg',
+		'/assets/images/movies/Vermiglio/banner2_vermiglio.jpg',
+		'/assets/images/movies/Vermiglio/banner3_vermiglio.jpg'
+	]
 };
 
 export const SEPTEMBER_5 = {
@@ -1006,7 +1096,7 @@ export const SEPTEMBER_5 = {
 	genre_ids: ['drama', 'thriller', 'history'],
 	id: '1211472',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'September 5',
 	overview:
 		'During the 1972 Munich Olympics, an American sports broadcasting crew finds itself thrust into covering the hostage crisis involving Israeli athletes.',
@@ -1014,7 +1104,12 @@ export const SEPTEMBER_5 = {
 	poster_path: '/lHNSCUtThlJlHYqWKuBaQk5tjMM.jpg',
 	release_date: '2024-11-07',
 	title: 'Septiembre 5',
-	video: false
+	video: 'https://www.youtube.com/watch?v=Azud40CQ3IE',
+	banners: [
+		'/assets/images/movies/Septiembre5/banner1_sep5.jpg',
+		'/assets/images/movies/Septiembre5/banner2_sep5.jpg',
+		'/assets/images/movies/Septiembre5/banner3_sep5.jpg'
+	]
 };
 
 export const PRESENCE = {
@@ -1022,7 +1117,7 @@ export const PRESENCE = {
 	genre_ids: ['drama', 'mystery', 'horror'],
 	id: '1140535',
 	age: '18',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Presence',
 	overview:
 		'A family becomes convinced they are not alone after moving into their new home in the suburbs.',
@@ -1030,7 +1125,12 @@ export const PRESENCE = {
 	poster_path: '/awo4dVfchLFMVCCRUTOEAtgYEVm.jpg',
 	release_date: '2025-01-16',
 	title: 'Presence',
-	video: false
+	video: 'https://www.youtube.com/watch?v=XfSNmYhV8Xc',
+	banners: [
+		'/assets/images/movies/Presence/banner1_presence.jpg',
+		'/assets/images/movies/Presence/banner2_presence.jpg',
+		'/assets/images/movies/Presence/banner3_presence.jpg'
+	]
 };
 
 export const MICKEY_17 = {
@@ -1038,7 +1138,7 @@ export const MICKEY_17 = {
 	genre_ids: ['sci-fi', 'comedy'],
 	id: '696506',
 	age: '16',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Mickey 17',
 	overview:
 		'Mickey Barnes se encuentra en la extraordinaria circunstancia de trabajar para un empleador que exige el máximo compromiso con el trabajo... morir, para ganarse la vida.',
@@ -1046,7 +1146,12 @@ export const MICKEY_17 = {
 	poster_path: '/ou9BobDOvNbkFYBTlpa7x8pND4i.jpg',
 	release_date: '2025-02-28',
 	title: 'Mickey 17',
-	video: false
+	video: 'https://www.youtube.com/watch?v=tA1s65o_kYM',
+	banners: [
+		'/assets/images/movies/Mickey17/banner1_mickey17.jpg',
+		'/assets/images/movies/Mickey17/banner2_mickey17.jpg',
+		'/assets/images/movies/Mickey17/banner3_mickey17.jpg'
+	]
 };
 
 export const LEE_MILLER = {
@@ -1054,7 +1159,7 @@ export const LEE_MILLER = {
 	genre_ids: ['history', 'drama', 'war'],
 	id: '832964',
 	age: '16',
-	original_language: 'en',
+	original_language: 'Inglés',
 	original_title: 'Lee',
 	overview:
 		"La historia de la fotógrafa Elizabeth 'Lee' Miller, una modelo que se convirtió en una aclamada corresponsal de guerra de la revista Vogue durante la Segunda Guerra Mundial.",
@@ -1062,7 +1167,12 @@ export const LEE_MILLER = {
 	poster_path: '/nmm7lLqF5mAzn3OvO7qJwFGbi2v.jpg',
 	release_date: '2024-09-12',
 	title: 'Lee Miller',
-	video: false
+	video: 'https://www.youtube.com/watch?v=DmFYkiUAAA8',
+	banners: [
+		'/assets/images/movies/Lee_Miller/banner1_leemiller.jpg',
+		'/assets/images/movies/Lee_Miller/banner2_leemiller.jpg',
+		'/assets/images/movies/Lee_Miller/banner3_leemiller.jpg'
+	]
 };
 
 export const LA_CHICA_DE_LA_AGUJA = {
@@ -1078,5 +1188,10 @@ export const LA_CHICA_DE_LA_AGUJA = {
 	poster_path: '/aU3p3NC3btVtLnA8LVI48asdlfI.jpg',
 	release_date: '2024-09-06',
 	title: 'La chica de la aguja',
-	video: false
+	video: 'https://www.youtube.com/watch?v=Oz81Qmc5Mq4',
+	banners: [
+		'/assets/images/movies/Chica_aguja/banner1_chicaaguja.jpg',
+		'/assets/images/movies/Chica_aguja/banner2_chicaaguja.jpg',
+		'/assets/images/movies/Chica_aguja/banner3_chicaaguja.jpg'
+	]
 };

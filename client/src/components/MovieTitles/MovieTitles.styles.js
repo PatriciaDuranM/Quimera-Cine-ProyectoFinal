@@ -5,7 +5,7 @@ const StyledTitle = styled.span`
 	font-size: 20px;
 	font-weight: ${FONT_WEIGHT.semibold};
 
-	@media screen {
+	@media screen and (width>768px) {
 		font-size: 28px;
 	}
 `;

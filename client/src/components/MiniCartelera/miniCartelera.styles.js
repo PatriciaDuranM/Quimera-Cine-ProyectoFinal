@@ -58,6 +58,7 @@ const StyledButton = styled.button`
 	font-size: 22px;
 	font-weight: ${FONT_WEIGHT.semibold};
 	font-family: ${FONT_FAMILY.clashDisplay};
+	cursor: pointer;
 
 	@media screen and (width>786px) {
 		width: 352px;

@@ -12,10 +12,18 @@ import {
 	StyledTagBox,
 	StyledTitle
 } from './MovieCardList.styles';
-import { GENRE_TAGS } from '../../styles/tags';
+import { AGE_TAGS, GENRE_TAGS } from '../../styles/tags';
 import { useState } from 'react';
+import { MOVIES } from '../../constants/movies';
 
-const MovieCardList = ({ title, duration, poster_path, genre_ids, id }) => {
+const MovieCardList = ({
+	title,
+	duration,
+	poster_path,
+	genre_ids,
+	id,
+	age
+}) => {
 	const genre = genre_ids[0];
 	const [save, setSave] = useState(false);
 	return (
@@ -44,17 +52,21 @@ const MovieCardList = ({ title, duration, poster_path, genre_ids, id }) => {
 						/>
 					</StyledInfoSave>
 					<StyledTagBox>
+						{genre_ids.map(genre => (
+							<Tag
+								key={genre}
+								type='genre'
+								size={GENRE_TAGS[genre].size.L_MOV}
+								values={GENRE_TAGS[genre]}
+								position='static'
+							></Tag>
+						))}
 						<Tag
-							type='genre'
-							size={GENRE_TAGS[genre].size.S_MOV}
-							values={GENRE_TAGS[genre]}
-							position='absolute'
-						></Tag>
-						<Tag
+							key={age}
 							type='age'
-							size={GENRE_TAGS[genre].size.S_MOV}
-							values={GENRE_TAGS[genre]}
-							position='absolute'
+							size={AGE_TAGS[age].size.L_MOV}
+							values={AGE_TAGS[age]}
+							position='static'
 						></Tag>
 					</StyledTagBox>
 				</StyledContainer>

@@ -22,6 +22,11 @@ const StyledFilter = styled.button`
 	text-align: center;
 	border-radius: 15px;
 	border: none;
+
+	@media screen and (width>768px) {
+		width: 188px;
+		height: 52px;
+	}
 `;
 
 const StyledList = styled.button`

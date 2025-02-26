@@ -5,17 +5,17 @@ import {
 	StyledList
 } from './FilterButtons.styles';
 
-const FilterButtons = ({ list, setList }) => {
+const FilterButtons = ({ setModalOpen, list, setList }) => {
 	return (
 		<StyledFiltersBox>
-			<StyledFilter>Filtrar</StyledFilter>
-			<StyledList onClick={() => setList(!list)}>
+			<StyledFilter onClick={() => setModalOpen(true)}>Filtrar</StyledFilter>
+			<StyledList $list={list} onClick={() => setList(true)}>
 				<img
 					src='/assets/images/Icons/ListListIcon.svg'
 					alt='Ver películas en modo lista'
 				/>
 			</StyledList>
-			<StyledBlock onClick={() => setList(list === false)}>
+			<StyledBlock $list={list} onClick={() => setList(false)}>
 				<img
 					src='/assets/images/Icons/ColumnListIcon.svg'
 					alt='Ver películas en modo columnas'

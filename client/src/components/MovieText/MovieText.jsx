@@ -4,7 +4,7 @@ const MovieText = ({ children }) => {
 	console.log(children);
 	return (
 		<>
-			<StyledText>{children.join(', ')}</StyledText>
+			<StyledText>{children}</StyledText>
 		</>
 	);
 };

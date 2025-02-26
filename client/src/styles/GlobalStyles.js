@@ -67,13 +67,21 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         background-image:url('../assets/images/images/fondoMovil.png');
         background-repeat:no-repeat;
-        background-size:100%;
+        background-size:cover;
+        min-height: 100vh;
+        
        
 
         @media screen and (width>768px) {
             background-image:url('../assets/images/images/fondoEscritorio.png');
 	    }
-        background-size:100%;
+       
         color: ${COLORS.neutralCold};
+    }
+
+    #root{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 `;

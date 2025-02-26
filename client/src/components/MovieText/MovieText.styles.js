@@ -6,7 +6,7 @@ const StyledText = styled.p`
 	font-weight: ${FONT_WEIGHT.regular};
 	margin: 0px;
 
-	@media screen {
+	@media screen and (width>768px) {
 		font-size: 28px;
 	}
 `;

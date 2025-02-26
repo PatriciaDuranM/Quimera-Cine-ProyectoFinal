@@ -177,7 +177,7 @@ const StyledMovieTittle = styled.h3`
 	font-weight: ${FONT_WEIGHT.regular};
 
 	@media screen and (width>768px) {
-		font-size: 52px;
+		font-size: 40px;
 		font-weight: ${FONT_WEIGHT.semibold};
 		color: ${COLORS.principal};
 		margin: 0px;

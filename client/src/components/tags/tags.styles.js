@@ -20,6 +20,8 @@ const StyledAge = styled(StyledTag)`
 
 const StyledGenre = styled(StyledTag)`
 	width: fit-content;
+	top: 8px;
+	left: 8px;
 `;
 
 export { StyledAge, StyledGenre };
