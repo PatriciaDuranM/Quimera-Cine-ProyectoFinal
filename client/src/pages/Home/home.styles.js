@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { FONT_FAMILY, FONT_WEIGHT } from '../../styles/FontsStyles';
 import { COLORS } from '../../styles/Colors';
+import 'swiper/css';
 
 const StyledBanner = styled.img`
 	width: 100%;
@@ -85,12 +86,12 @@ const StyledBar1 = styled.span`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding-inline: 40px;
+	padding-inline: 20px;
 	background-color: ${COLORS.pink};
 	font-weight: ${FONT_WEIGHT.medium};
 
 	@media screen and (width>768px) {
-		font-size: 52px;
+		font-size: 20px;
 		font-weight: ${FONT_WEIGHT.semibold};
 		font-family: ${FONT_FAMILY.clashDisplay};
 		color: ${COLORS.principal};
@@ -101,12 +102,12 @@ const StyledBar2 = styled.span`
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding-inline: 40px;
+	padding-inline: 20px;
 	background-color: ${COLORS.blue};
 	font-weight: ${FONT_WEIGHT.medium};
 
 	@media screen and (width>768px) {
-		font-size: 52px;
+		font-size: 20px;
 		font-weight: ${FONT_WEIGHT.semibold};
 		font-family: ${FONT_FAMILY.clashDisplay};
 		color: ${COLORS.principal};
@@ -177,7 +178,7 @@ const StyledMovieTittle = styled.h3`
 	font-weight: ${FONT_WEIGHT.regular};
 
 	@media screen and (width>768px) {
-		font-size: 40px;
+		font-size: 20px;
 		font-weight: ${FONT_WEIGHT.semibold};
 		color: ${COLORS.principal};
 		margin: 0px;

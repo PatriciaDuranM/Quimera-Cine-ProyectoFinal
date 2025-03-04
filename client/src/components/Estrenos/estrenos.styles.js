@@ -20,17 +20,25 @@ const StyledTittle = styled.h2`
 `;
 
 const StyledCarrusel = styled.div`
+	height: 264px;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-	gap: 19px;
 	align-items: center;
+	flex-shrink: 0;
+
+	@media screen and (width>786px) {
+		height: 340px;
+		width: 1198px;
+	}
 `;
 
 const StyledFilm = styled.img`
 	width: 170px;
 	height: 233px;
 	border-radius: 10px;
-	background-color: ${COLORS.blue};
+	flex-shrink: 0;
+	object-fit: cover;
 
 	@media screen and (width>786px) {
 		width: 240px;

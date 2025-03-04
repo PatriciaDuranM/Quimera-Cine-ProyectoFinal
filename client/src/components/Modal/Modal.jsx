@@ -21,10 +21,10 @@ const Modal = ({ children, setModalOpen }) => {
 	);
 };
 
-const handleClickOutside = (event, setModalOpen, modalRef) => {
+const handleClickOutside = (event, setModalOpen, modalref) => {
 	// Si el clic es fuera del contenido del modal, cerramos el modal
 
-	if (modalRef.current && modalRef.current === event.target) {
+	if (modalref.current && modalref.current === event.target) {
 		setModalOpen(false);
 	}
 };

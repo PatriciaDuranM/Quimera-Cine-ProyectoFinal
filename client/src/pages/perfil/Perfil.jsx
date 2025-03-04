@@ -1,5 +1,11 @@
+import Construccion from '../../components/Construccion/Construccion';
+
 const Perfil = () => {
-	return <></>;
+	return (
+		<>
+			<Construccion />
+		</>
+	);
 };
 
 export default Perfil;

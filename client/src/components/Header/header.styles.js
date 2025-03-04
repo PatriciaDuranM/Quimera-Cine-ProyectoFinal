@@ -56,7 +56,7 @@ const StyledNav = styled.nav`
 	width: 100%;
 `;
 const StyledMenuList = styled.ul`
-	z-index: 1;
+	z-index: 10;
 	display: ${({ $menuOpen }) => ($menuOpen ? 'flex' : 'none')};
 	flex-direction: column;
 	width: 100%;
@@ -112,7 +112,7 @@ const StyledNavLink = styled(NavLink)`
 	}
 
 	@media screen and (width>786px) {
-		font-size: 40px;
+		font-size: 24px;
 	}
 `;
 

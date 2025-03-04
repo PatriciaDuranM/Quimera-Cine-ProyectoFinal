@@ -1,5 +1,11 @@
+import Construccion from '../../components/Construccion/Construccion';
+
 const Actividades = () => {
-	return <></>;
+	return (
+		<>
+			<Construccion />
+		</>
+	);
 };
 
 export default Actividades;

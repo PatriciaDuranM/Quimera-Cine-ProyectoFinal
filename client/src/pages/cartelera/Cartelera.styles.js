@@ -2,6 +2,47 @@ import styled from 'styled-components';
 import { FONT_FAMILY, FONT_WEIGHT } from '../../styles/FontsStyles';
 import { COLORS } from '../../styles/Colors';
 
+const StyledPestañasBox = styled.div`
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+`;
+const StyledPestaña = styled.button`
+	width: 50%;
+	height: 40px;
+	font-family: ${FONT_FAMILY.clashDisplay};
+	font-size: 20px;
+	border: none;
+	font-weight: ${({ $nextMovies, $selected }) =>
+		($nextMovies && $selected === 'next') ||
+		(!$nextMovies && $selected === 'now')
+			? FONT_WEIGHT.semibold
+			: FONT_WEIGHT.medium};
+	border-bottom: ${({ $nextMovies, $selected }) =>
+		($nextMovies && $selected === 'next') ||
+		(!$nextMovies && $selected === 'now')
+			? `4px solid ${COLORS.neutralCold}`
+			: 'none'};
+	border-radius: 0px;
+	color: ${COLORS.neutralCold};
+	background-color: ${({ $nextMovies, $selected }) =>
+		($nextMovies && $selected === 'next') ||
+		(!$nextMovies && $selected === 'now')
+			? COLORS.pink
+			: COLORS.desat};
+
+	@media screen and (width>768px) {
+		height: 76px;
+		font-size: 30px;
+		border-bottom: ${({ $nextMovies, $selected }) =>
+			($nextMovies && $selected === 'next') ||
+			(!$nextMovies && $selected === 'now')
+				? `8px solid ${COLORS.neutralCold}`
+				: 'none'};
+	}
+`;
+
 const StyledContainerMoviesBlock = styled.div`
 	display: flex;
 	flex-direction: row;
@@ -81,8 +122,8 @@ const StyledButton = styled.div`
 	padding: 10px;
 	align-items: center;
 	text-align: center;
-	background-color: ${({ bgColor }) => bgColor};
-	color: ${({ color }) => color};
+	background-color: ${({ $bgColor }) => $bgColor};
+	color: ${({ $color }) => $color};
 	border-radius: 15px;
 	border: none;
 	font-size: 18px;
@@ -124,5 +165,7 @@ export {
 	StyledButton,
 	StyledButtonsBox,
 	StyledAgeBox,
-	StyledForm
+	StyledForm,
+	StyledPestañasBox,
+	StyledPestaña
 };

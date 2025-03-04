@@ -43,7 +43,7 @@ const Header = () => {
 						<StyledNavLink to='/actividades'>Actividades</StyledNavLink>
 					</StyledItem>
 					<StyledItem>
-						<StyledNavLink to='/iniciarSesion'>Iniciar sesión</StyledNavLink>
+						<StyledNavLink to='/perfil'>Iniciar sesión</StyledNavLink>
 					</StyledItem>
 				</StyledMenuList>
 			</StyledNav>

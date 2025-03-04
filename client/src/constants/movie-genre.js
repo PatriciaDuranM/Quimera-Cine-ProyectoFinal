@@ -39,37 +39,22 @@ export const MOVIE_GENRES = {
 };
 
 export const GENEROS = [
-	'Acción',
-
-	'Aventura',
-
-	'Animación',
-
-	'Comedia',
-
-	'Crimen',
-
-	'Documental',
-
-	'Drama',
-
-	'Familiar',
-
-	'Fantasía',
-
-	'Historia',
-
-	'Terror',
-
-	'Musical',
-
-	'Misterio',
-
-	'Romance',
-
-	'Sci-fi',
-
-	'Thriller'
+	{ label: 'Acción', value: 'action' },
+	{ label: 'Aventura', value: 'adventure' },
+	{ label: 'Animación', value: 'animation' },
+	{ label: 'Comedia', value: 'comedy' },
+	{ label: 'Crimen', value: 'crime' },
+	{ label: 'Documental', value: 'documentary' },
+	{ label: 'Drama', value: 'drama' },
+	{ label: 'Familiar', value: 'family' },
+	{ label: 'Fantasía', value: 'fantasy' },
+	{ label: 'Historia', value: 'history' },
+	{ label: 'Terror', value: 'horror' },
+	{ label: 'Musical', value: 'musical' },
+	{ label: 'Misterio', value: 'mystery' },
+	{ label: 'Romance', value: 'romance' },
+	{ label: 'Sci-fi', value: 'sci-fi' },
+	{ label: 'Thriller', value: 'thriller' }
 ];
 
 export const EDAD = [

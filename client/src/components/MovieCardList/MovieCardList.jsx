@@ -14,7 +14,6 @@ import {
 } from './MovieCardList.styles';
 import { AGE_TAGS, GENRE_TAGS } from '../../styles/tags';
 import { useState } from 'react';
-import { MOVIES } from '../../constants/movies';
 
 const MovieCardList = ({
 	title,
@@ -24,8 +23,8 @@ const MovieCardList = ({
 	id,
 	age
 }) => {
-	const genre = genre_ids[0];
 	const [save, setSave] = useState(false);
+	console.log(age, title);
 	return (
 		<>
 			<StyledCard>

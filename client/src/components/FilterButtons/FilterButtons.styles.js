@@ -33,18 +33,29 @@ const StyledList = styled.button`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background-color: ${COLORS.blue};
+	background-color: ${({ $list }) =>
+		$list ? COLORS.blue : COLORS.neutralCold};
 	border: none;
 	border-radius: 15px;
+
+	@media screen and (width>768px) {
+		width: 52px;
+		height: 52px;
+	}
 `;
 
 const StyledBlock = styled.button`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background-color: ${COLORS.neutralCold};
+	background-color: ${({ $list }) =>
+		$list ? COLORS.neutralCold : COLORS.blue};
 	border: none;
 	border-radius: 15px;
+	@media screen and (width>768px) {
+		width: 52px;
+		height: 52px;
+	}
 `;
 
 export { StyledFilter, StyledFiltersBox, StyledList, StyledBlock };

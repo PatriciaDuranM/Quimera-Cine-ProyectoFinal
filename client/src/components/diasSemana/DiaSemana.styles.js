@@ -21,20 +21,20 @@ const StyledDay = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding-inline: 8px;
-	background-color: ${({ $selectedDay }) =>
-		$selectedDay === true ? `${COLORS.pink}` : `${COLORS.neutralWarm}`};
-	color: ${({ $selectedDay }) =>
-		$selectedDay === true ? '#F3F3F3' : `${COLORS.principal}`};
-	border-bottom: ${({ $selectedDay }) =>
-		$selectedDay === true ? `4px solid ${COLORS.neutralWarm}` : 'none'};
+	background-color: ${({ $isSelected }) =>
+		$isSelected ? `${COLORS.pink}` : `${COLORS.neutralWarm}`};
+	color: ${({ $isSelected }) =>
+		$isSelected ? '#F3F3F3' : `${COLORS.principal}`};
+	border-bottom: ${({ $isSelected }) =>
+		$isSelected ? `4px solid ${COLORS.neutralWarm}` : 'none'};
 
 	@media screen and (width>786px) {
 		width: 110px;
 		height: 108px;
 		padding: 14px;
 		gap: 5px;
-		border-bottom: ${({ $selectedDay }) =>
-			$selectedDay === true ? `9px solid ${COLORS.neutralWarm}` : 'none'};
+		border-bottom: ${({ $isSelected }) =>
+			$isSelected ? `9px solid ${COLORS.neutralWarm}` : 'none'};
 	}
 `;
 

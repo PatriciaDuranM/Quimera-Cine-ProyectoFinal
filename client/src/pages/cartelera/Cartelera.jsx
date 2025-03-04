@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import DiasSemana from '../../components/diasSemana/DiaSemana';
+import { useState } from 'react';
 import FilterButtons from '../../components/FilterButtons/FilterButtons';
 import MovieCardList from '../../components/MovieCardList/MovieCardList';
-import Tag from '../../components/tags/Tags';
-import { AGE_TAGS, GENRE_TAGS } from '../../styles/tags';
-import { MOVIES } from '../../constants/movies';
+import { CARTELERA, GOYA, MOVIES, PROXIMAMENTE } from '../../constants/movies';
 import {
 	StyledAgeBox,
 	StyledBox,
@@ -13,55 +10,81 @@ import {
 	StyledContainerMoviesBlock,
 	StyledContainerMoviesList,
 	StyledFilterBox,
+	StyledPestaña,
+	StyledPestañasBox,
 	StyledTitleFilter
 } from './Cartelera.styles';
 
-import MovieCardBlock from '../../components/MovieCardBlock/MovieCardBlock';
-import { StyledMain, StyledWeek } from '../pelicula/Pelicula.styles';
 import DiaSemana from '../../components/diasSemana/DiaSemana';
 import Modal from '../../components/Modal/Modal';
+import MovieCardBlock from '../../components/MovieCardBlock/MovieCardBlock';
 import RadioPicker from '../../components/radiopicker/RadioPicker';
 import { EDAD, GENEROS } from '../../constants/movie-genre';
 import { COLORS } from '../../styles/Colors';
+import { StyledMain, StyledWeek } from '../pelicula/Pelicula.styles';
+import { semana } from '../../constants/days';
 const API_KEY = '516800ef8302f7e2f4b5b52959005cf6';
 const url = `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=es-ES&page=1`;
 
 const Cartelera = () => {
-	const [movies, setMovies] = useState();
-	console.log(movies);
+	const [movies, setMovies] = useState(CARTELERA);
 	const [list, setList] = useState(false);
-	useEffect(() => {
-		getNowPlayingMovies(setMovies);
-	}, []);
-
 	const [modalOpen, setModalOpen] = useState(false);
 	const [filterGenre, setFilterGenre] = useState([]);
 	const [filterAge, setFilterAge] = useState([]);
-
-	const filteredMovies = filterByGenre(filterGenre);
+	const [nextMovies, setNextMovies] = useState(false);
+	const [selectedDay, setSelectedDay] = useState();
 
 	return (
 		<>
 			<StyledMain>
-				<StyledWeek>
-					<DiaSemana />
-				</StyledWeek>
+				<StyledPestañasBox>
+					<StyledPestaña
+						$nextMovies={nextMovies}
+						onClick={() => setNextMovies(false)}
+						$selected='now'
+					>
+						En cartelera
+					</StyledPestaña>
+					<StyledPestaña
+						$nextMovies={nextMovies}
+						$selected='next'
+						onClick={() => setNextMovies(true)}
+					>
+						Próximamente
+					</StyledPestaña>
+				</StyledPestañasBox>
+				{!nextMovies && (
+					<StyledWeek>
+						{semana.map(dayInfo => (
+							<DiaSemana
+								key={dayInfo.dayNumber}
+								month={dayInfo.monthName}
+								number={dayInfo.dayNumber}
+								name={dayInfo.dayName}
+								action={() => setSelectedDay(dayInfo)}
+								isSelected={selectedDay === dayInfo}
+							/>
+						))}
+					</StyledWeek>
+				)}
 				<FilterButtons
 					setModalOpen={setModalOpen}
 					list={list}
 					setList={setList}
 				></FilterButtons>
 				{modalOpen && (
-					<Modal setModalOpen={setModalOpen}>
+					<Modal setModalOpen={setModalOpen} setFilterGenre={setFilterGenre}>
 						<StyledBox>
 							<StyledBox>
 								<StyledTitleFilter>Géneros</StyledTitleFilter>
 								<StyledFilterBox>
 									{GENEROS.map(genero => (
 										<RadioPicker
-											label={genero}
-											key={genero}
-											value={genero}
+											label={genero.label}
+											key={genero.value}
+											value={genero.value}
+											checked={filterGenre.includes(genero.value)}
 											action={event =>
 												updateGenre(event, filterGenre, setFilterGenre)
 											}
@@ -78,10 +101,26 @@ const Cartelera = () => {
 								</StyledAgeBox>
 							</StyledBox>
 							<StyledButtonsBox>
-								<StyledButton bgColor={COLORS.prin200}>
+								<StyledButton
+									$bgColor={COLORS.prin200}
+									onClick={() =>
+										eraseFilters(setFilterGenre, setModalOpen, setMovies)
+									}
+								>
 									Borrar todo
 								</StyledButton>
-								<StyledButton color={COLORS.principal} bgColor={COLORS.pink}>
+								<StyledButton
+									$color={COLORS.principal}
+									$bgColor={COLORS.pink}
+									onClick={() =>
+										filterByGenre(
+											filterGenre,
+											setFilterGenre,
+											setMovies,
+											setModalOpen
+										)
+									}
+								>
 									Aplicar filtros
 								</StyledButton>
 							</StyledButtonsBox>
@@ -89,28 +128,44 @@ const Cartelera = () => {
 					</Modal>
 				)}
 
-				{!list && (
-					<StyledContainerMoviesBlock>
-						{filteredMovies.map(movie => (
-							<MovieCardBlock key={movie.id} {...movie} />
-						))}
-					</StyledContainerMoviesBlock>
-				)}
+				{!nextMovies && (
+					<>
+						{!list && (
+							<StyledContainerMoviesBlock>
+								{movies.map(movie => (
+									<MovieCardBlock key={movie.id} {...movie} />
+								))}
+							</StyledContainerMoviesBlock>
+						)}
 
-				{list && (
-					<StyledContainerMoviesList>
-						{filteredMovies.map(movie => (
-							<MovieCardList key={movie.id} {...movie} />
-						))}
-					</StyledContainerMoviesList>
+						{list && (
+							<StyledContainerMoviesList>
+								{movies.map(movie => (
+									<MovieCardList key={movie.id} {...movie} />
+								))}
+							</StyledContainerMoviesList>
+						)}
+					</>
 				)}
+				{nextMovies && (
+					<>
+						{!list && (
+							<StyledContainerMoviesBlock>
+								{PROXIMAMENTE.map(movie => (
+									<MovieCardBlock key={movie.id} {...movie} />
+								))}
+							</StyledContainerMoviesBlock>
+						)}
 
-				{/* <Tag type='age' size={AGE_TAGS[16].S_MOV} values={AGE_TAGS[16]}></Tag>
-			<Tag
-				type='genre'
-				size={GENRE_TAGS.biografia.size.M_MOV}
-				values={GENRE_TAGS.biografia}
-			></Tag> */}
+						{list && (
+							<StyledContainerMoviesList>
+								{PROXIMAMENTE.map(movie => (
+									<MovieCardList key={movie.id} {...movie} />
+								))}
+							</StyledContainerMoviesList>
+						)}
+					</>
+				)}
 			</StyledMain>
 		</>
 	);
@@ -129,25 +184,27 @@ const updateGenre = (event, filterGenre, setFilterGenre) => {
 	}
 };
 
-const filterByGenre = filterGenre => {
+const filterByGenre = (
+	filterGenre,
+	setFilterGenre,
+	setMovies,
+	setModalOpen
+) => {
+	setFilterGenre([...filterGenre]);
 	if (filterGenre.length === 0) {
-		return MOVIES;
+		setMovies(MOVIES);
+		return;
 	}
 
 	const filteredMovies = MOVIES.filter(movie =>
 		movie.genre_ids.some(genre => filterGenre.includes(genre))
 	);
-
-	return filteredMovies;
-
-	// const filtereMovies = MOVIES.filter(movie => movie.genre_ids.includes(genre));
-	// return filtereMovies;
+	setModalOpen(false);
+	setMovies(filteredMovies);
 };
 
-const getNowPlayingMovies = async setBillboard => {
-	const res = await fetch(url, { cache: 'no-store' });
-
-	const data = await res.json();
-
-	setBillboard(data.results);
+const eraseFilters = (setFilterGenre, setModalOpen, setMovies) => {
+	setFilterGenre([]);
+	setModalOpen(false);
+	setMovies(MOVIES);
 };

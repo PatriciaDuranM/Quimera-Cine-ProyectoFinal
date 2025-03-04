@@ -4,10 +4,15 @@ import {
 	StyledRadioButton
 } from './RadioPicker.styled';
 
-const RadioPicker = ({ value, action, label }) => {
+const RadioPicker = ({ value, action, label, checked }) => {
 	return (
 		<StyledDiv>
-			<StyledRadioButton value={value} onChange={action} type='checkbox' />
+			<StyledRadioButton
+				defaultChecked={checked}
+				value={value}
+				onChange={action}
+				type='checkbox'
+			/>
 			<StyledLabel>{label}</StyledLabel>
 		</StyledDiv>
 	);

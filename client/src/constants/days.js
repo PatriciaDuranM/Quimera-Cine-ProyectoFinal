@@ -36,8 +36,8 @@ export const ObtenerDias = () => {
 console.log(ObtenerDias());
 
 const getWeekData = () => {
-	const semana = {};
-	const diasSemana = ['LUN', 'MAR', 'MIER', 'JUE', 'VIE', 'SAB', 'DOM'];
+	const semana = [];
+	const diasSemana = ['DOM', 'LUN', 'MAR', 'MIE', 'JUE', 'VIE', 'SAB'];
 	const meses = [
 		'ENE',
 		'FEB',
@@ -71,3 +71,18 @@ const getWeekData = () => {
 
 // Exporta el objeto con los datos de la semana
 export const semana = getWeekData();
+
+/*sucio*/
+// {semana.map(dayInfo =>
+// 	{ if /*(saber si day.Info.dayname coincide con los dias que tenemos en horarios, si coincide se devuelve, si no no)*/
+
+// 	return <DiaSemana
+// 		key={dayInfo.dayNumber}
+// 		month={dayInfo.monthName}
+// 		number={dayInfo.dayNumber}
+// 		name={dayInfo.dayName}
+// 		action={() => setSelectedDay(dayInfo)}
+// 		isSelected={selectedDay === dayInfo}
+// 	/>
+
+// })}

@@ -3,6 +3,7 @@ export const PAST_LIVES = {
 	age: '12',
 	backdrop_path: '/7HR38hMBl23lf38MAN63y4pKsHz.jpg',
 	genre_ids: ['drama', 'romance'],
+	generos: ['Drama', 'romance'],
 	original_language: 'Inglés',
 	original_title: 'Past Lives',
 	overview: [
@@ -46,11 +47,16 @@ export const PAST_LIVES = {
 			name: 'Yoon Ji-hye',
 			photo: '/7zePMNGe149OzzsyVCdL0Mx1dT2.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['16:00'] },
+		{ day: 'JUE', hours: ['18:00'] }
 	]
 };
 export const LOVE_LIES_BLEEDING = {
 	backdrop_path: '/oMiKHO3H5RixfLsiU5Vumhlp5sj.jpg',
 	genre_ids: ['romance', 'crime', 'thriller'],
+	generos: ['Romance', 'crime', 'thriller'],
 	id: '948549',
 	age: '18',
 	original_language: 'Inglés',
@@ -96,12 +102,17 @@ export const LOVE_LIES_BLEEDING = {
 			name: 'Anna Baryshnikov',
 			photo: '/a7zp0wIARHtWR8RokyGo7mzOYxj.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['18:00'] },
+		{ day: 'JUE', hours: ['16:00'] }
 	]
 };
 
 export const EL_47 = {
 	backdrop_path: '/4fKEH1eeLv6NsLD4adCsFqJaRo0.jpg',
 	genre_ids: ['crime', 'drama'],
+	generos: ['Crimen', 'drama'],
 	id: '1174481',
 	age: '7',
 	original_language: 'Catalán',
@@ -146,13 +157,20 @@ export const EL_47 = {
 			name: 'David Verdaguer',
 			photo: '/6TreWuZXVK9qYoHC0qLSbnHA1e0.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MAR'['18:00'] },
+		{ day: 'VIE', hours: ['16:00'] },
+		{ day: 'SAB', hours: ['12:00', '16:00'] },
+		{ day: 'DOM', hours: ['12:00', '16:00'] }
 	]
 };
 
 export const LA_INFILTRADA = {
 	backdrop_path: '/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg',
 	genre_ids: ['drama', 'crime', 'thriller'],
-	id: 1215185,
+	generos: ['Drama', 'crimen', 'thriller'],
+	id: '1215185',
 	original_language: 'Español',
 	original_title: 'La infiltrada',
 	overview:
@@ -165,7 +183,7 @@ export const LA_INFILTRADA = {
 	director: 'Arantxa Echevarría',
 	filmAffinity: '7.1',
 	age: '12',
-	duration: '119',
+	duration: 119,
 	banners: [
 		'/assets/images/movies/La_infiltrada/banner1_lainfiltrada.jpg',
 		'/assets/images/movies/La_infiltrada/banner2_lainfiltrada.jpg',
@@ -174,28 +192,34 @@ export const LA_INFILTRADA = {
 	actors: [
 		{
 			name: 'Carolina Yuste',
-			profile_path: '/4lc27CTp58UZBx6Nv6Ld335cW85.jpg'
+			photo: '/4lc27CTp58UZBx6Nv6Ld335cW85.jpg'
 		},
 		{
 			name: 'Luis Tosar',
-			profile_path: '/7ZTdhzUCpG9jhsKJeTJbGn36v5F.jpg'
+			photo: '/7ZTdhzUCpG9jhsKJeTJbGn36v5F.jpg'
 		},
 		{
 			name: 'Víctor Clavijo',
-			profile_path: '/f7aluwKTHUC8OLpOMxndFCrYwI3.jpg'
+			photo: '/f7aluwKTHUC8OLpOMxndFCrYwI3.jpg'
 		},
 		{
 			name: 'Nausicaa Bonnín',
-			profile_path: '/fubSrCF12xN9CFuZRoZTSvQeUij.jpg'
+			photo: '/fubSrCF12xN9CFuZRoZTSvQeUij.jpg'
 		},
 		{
 			name: 'Iñigo Gastesi',
-			profile_path: '/74Atas5KQFiWfYTvuGEIl9LKvt8.jpg'
+			photo: '/74Atas5KQFiWfYTvuGEIl9LKvt8.jpg'
 		},
 		{
 			name: 'Diego Anido',
-			profile_path: '/a7DVrZFjt8JjdPWfOTT93uRXOg8.jpg'
+			photo: '/a7DVrZFjt8JjdPWfOTT93uRXOg8.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MAR'['18:00'] },
+		{ day: 'VIE', hours: ['16:00'] },
+		{ day: 'SAB', hours: ['12:00', '16:00'] },
+		{ day: 'DOM', hours: ['12:00', '16:00'] }
 	]
 };
 
@@ -203,7 +227,8 @@ export const CASA_EN_FLAMES = {
 	adult: false,
 	backdrop_path: '/8xVvEvOrtxVSWN3wpIdHozozyMb.jpg',
 	genre_ids: ['comedy'],
-	id: 1218193,
+	generos: ['Comedia'],
+	id: '1218193',
 	original_language: 'Catalán',
 	original_title: 'Casa en flames',
 	overview:
@@ -225,35 +250,42 @@ export const CASA_EN_FLAMES = {
 	actors: [
 		{
 			name: 'Emma Vilarasau',
-			profile_path: '/9VWQxEOZAJg4RqoM4OghKdADw2E.jpg'
+			photo: '/9VWQxEOZAJg4RqoM4OghKdADw2E.jpg'
 		},
 		{
 			name: 'Enric Auquer',
-			profile_path: '/jozyRHQKdb8pfFmH2aM5cks3j8p.jpg'
+			photo: '/jozyRHQKdb8pfFmH2aM5cks3j8p.jpg'
 		},
 		{
 			name: 'Maria Rodríguez Soto',
-			profile_path: '/lrkVSgDC5xghQKWDFWLwZK8DMAD.jpg'
+			photo: '/lrkVSgDC5xghQKWDFWLwZK8DMAD.jpg'
 		},
 		{
 			name: 'Alberto San Juan',
-			profile_path: '/571HQ0oTFqwWbwCC3EtHfzZgu2x.jpg'
+			photo: '/571HQ0oTFqwWbwCC3EtHfzZgu2x.jpg'
 		},
 		{
 			name: 'Clara Segura',
-			profile_path: '/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg'
+			photo: '/AiDKfpPlgdiu7HHNwKkrDmr7h9O.jpg'
 		},
 		{
 			name: 'José Pérez Ocaña',
-			profile_path: '/tQDMm4GPgXGpfh8mSk9bc7dZhsi.jpg'
+			photo: '/tQDMm4GPgXGpfh8mSk9bc7dZhsi.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['18:00'] },
+		{ day: 'VIE', hours: ['17:00'] },
+		{ day: 'SAB', hours: ['11:00', '17:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00'] }
 	]
 };
 
 export const LA_HABITACION_DE_AL_LADO = {
 	backdrop_path: '/9Xx0BCkxDsF47niAPsb8lQ0O9Qu.jpg',
 	genre_ids: ['drama'],
-	id: 1088514,
+	genero: ['Drama'],
+	id: '1088514',
 	original_language: 'Español',
 	original_title: 'La habitación de al lado',
 	overview:
@@ -267,39 +299,49 @@ export const LA_HABITACION_DE_AL_LADO = {
 	filmAffinity: '6.3',
 	duration: 106,
 	director: 'Pedro Almodóvar',
-	banners: ['', '', ''],
+	banners: [
+		'/assets/images/movies/La_habitacion_al_lado/banner1_habitacion.jpg',
+		'/assets/images/movies/La_habitacion_al_lado/banner2_habitacion.jpg',
+		'/assets/images/movies/La_habitacion_al_lado/banner3_habitacion.jpg'
+	],
 	actors: [
 		{
 			name: 'Julianne Moore',
-			profile_path: '/3YF19rWusxWfEI59ZM33dFhasRq.jpg'
+			photo: '/3YF19rWusxWfEI59ZM33dFhasRq.jpg'
 		},
 		{
 			name: 'Tilda Swinton',
-			profile_path: '/gWbX3a7V2MgRMRzekfITNcb27xV.jpg'
+			photo: '/gWbX3a7V2MgRMRzekfITNcb27xV.jpg'
 		},
 		{
 			name: 'John Turturro',
-			profile_path: '/6O9W9cJW0kCqMzYeLupV9oH0ftn.jpg'
+			photo: '/6O9W9cJW0kCqMzYeLupV9oH0ftn.jpg'
 		},
 		{
 			name: 'Alessandro Nivola',
-			profile_path: '/53wfpjSwPTMwhfuOSdgGgojMI8m.jpg'
+			photo: '/53wfpjSwPTMwhfuOSdgGgojMI8m.jpg'
 		},
 		{
 			name: 'Juan Diego Botto',
-			profile_path: '/6iu1uNMl511ZmEn0y828ZeLiuox.jpg'
+			photo: '/6iu1uNMl511ZmEn0y828ZeLiuox.jpg'
 		},
 		{
 			name: 'Raúl Arévalo',
-			profile_path: '/npWhiRnqlbqku6mNnk5RTgGvnj2.jpg'
+			photo: '/npWhiRnqlbqku6mNnk5RTgGvnj2.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['14:00'] },
+		{ day: 'VIE', hours: ['17:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00'] }
 	]
 };
 
 export const LA_ESTRELLA_AZUL = {
 	backdrop_path: '/viPfna8tjU7eEI4GMBGGNMXlx0h.jpg',
 	genre_ids: ['music', 'drama'],
-	id: 1160878,
+	genero: ['Musica', 'drama'],
+	id: '1160878',
 	original_language: 'Español',
 	original_title: 'La estrella azul',
 	overview:
@@ -313,39 +355,49 @@ export const LA_ESTRELLA_AZUL = {
 	filmAffinity: '7.3',
 	duration: 125,
 	director: 'Javier Macipe',
-	banners: ['', '', ''],
+	banners: [
+		'/assets/images/movies/La_estrella_azul/banner1_estrellaazul.jpg',
+		'/assets/images/movies/La_estrella_azul/banner2_estrellaazul.jpg',
+		'/assets/images/movies/La_estrella_azul/banner3_estrellaazul.jpg'
+	],
 	actors: [
 		{
 			name: 'Pepe Lorente',
-			profile_path: '/8xsU8WBl4bNBtLdsTYKvOvdqxGj.jpg'
+			photo: '/8xsU8WBl4bNBtLdsTYKvOvdqxGj.jpg'
 		},
 		{
 			name: 'Mariela Carabajal',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Noelia Verenice López',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Demi Carabajal',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Marc Rodríguez',
-			profile_path: '/oWXBlrDVBAfka7ItEy8AJseLI57.jpg'
+			photo: '/oWXBlrDVBAfka7ItEy8AJseLI57.jpg'
 		},
 		{
 			name: 'Bruna Cusí',
-			profile_path: '/3yv66ERiyxWwFiFyfKt5BaPbFxZ.jpg'
+			photo: '/3yv66ERiyxWwFiFyfKt5BaPbFxZ.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['12:00'] },
+		{ day: 'VIE', hours: ['17:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00'] }
 	]
 };
 
 export const SALVE_MARIA = {
 	backdrop_path: '/4ql2qeELm1gBl48KRzitEaYjBnb.jpg',
 	genre_ids: ['drama'],
-	id: 1247597,
+	genero: ['Drama'],
+	id: '1247597',
 	original_language: 'Catalán',
 	original_title: 'Salve Maria',
 	overview:
@@ -359,39 +411,49 @@ export const SALVE_MARIA = {
 	filmAffinity: '6.5',
 	duration: 111,
 	director: 'Mar Coll',
-	banners: ['', '', ''],
+	banners: [
+		'/assets/images/movies/Salve_maria/banner1_salvemaria.jpg',
+		'/assets/images/movies/Salve_maria/banner2_salvemaria.jpg',
+		'/assets/images/movies/Salve_maria/banner3_salvemaria.jpg'
+	],
 	actors: [
 		{
 			name: 'Laura Weissmahr',
-			profile_path: '/8RYwW9FwOVQAnjYqiVQ56yJ8CtI.jpg'
+			photo: '/8RYwW9FwOVQAnjYqiVQ56yJ8CtI.jpg'
 		},
 		{
 			name: 'Oriol Pla',
-			profile_path: '/g41bW9gwGLwj6gLLboX6uuut8HT.jpg'
+			photo: '/g41bW9gwGLwj6gLLboX6uuut8HT.jpg'
 		},
 		{
 			name: 'Giannina Fruttero',
-			profile_path: '/lu2qAy9Bt2nMMhdgVY1vFNm0mhf.jpg'
+			photo: '/lu2qAy9Bt2nMMhdgVY1vFNm0mhf.jpg'
 		},
 		{
 			name: 'Belén Cruz',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Karim Belayane',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Magali Heu',
-			profile_path: '/kHj5rixvEDagzcGMEcMp7JRdSkA.jpg'
+			photo: '/kHj5rixvEDagzcGMEcMp7JRdSkA.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['12:00'] },
+		{ day: 'VIE', hours: ['17:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00'] }
 	]
 };
 
 export const LA_VIRGEN_ROJA = {
 	backdrop_path: '/dkZVd7FzDTh8C1bAKioQK6ulRZ4.jpg',
-	genre_ids: ['drama', 'history', 'thriller'],
-	id: 1118028,
+	genre_ids: ['history', 'drama', 'thriller'],
+	genero: ['Historia', 'drama', 'thriller'],
+	id: '1118028',
 	original_language: 'Español',
 	original_title: 'La virgen roja',
 	overview:
@@ -405,39 +467,49 @@ export const LA_VIRGEN_ROJA = {
 	filmAffinity: '6.8',
 	duration: 114,
 	director: 'Paula Ortiz',
-	banners: ['', '', ''],
+	banners: [
+		'/assets/images/movies/La_virgen_roja/banner1_la_virgenroja.jpg',
+		'/assets/images/movies/La_virgen_roja/banner2_la_virgenroja.jpg',
+		'/assets/images/movies/La_virgen_roja/banner3_la_virgenroja.jpg'
+	],
 	actors: [
 		{
 			name: 'Najwa Nimri',
-			profile_path: '/hvLbKkDIT4FqSS8djmW5voNd0O4.jpg'
+			photo: '/hvLbKkDIT4FqSS8djmW5voNd0O4.jpg'
 		},
 		{
 			name: 'Alba Planas',
-			profile_path: '/b8QkKzOl0q5zddjp9Ti2krr9IAA.jpg'
+			photo: '/b8QkKzOl0q5zddjp9Ti2krr9IAA.jpg'
 		},
 		{
 			name: 'Aixa Villagrán',
-			profile_path: '/4MZ74v3JY1CmKEICqNrBEDVaeOs.jpg'
+			photo: '/4MZ74v3JY1CmKEICqNrBEDVaeOs.jpg'
 		},
 		{
 			name: 'Patrick Criado',
-			profile_path: '/irGL3gnK6EkiL1EsMAEzXkZ58U8.jpg'
+			photo: '/irGL3gnK6EkiL1EsMAEzXkZ58U8.jpg'
 		},
 		{
 			name: 'Pepe Viyuela',
-			profile_path: '/wvrv1mOihEh821u268eiRAwHWYT.jpg'
+			photo: '/wvrv1mOihEh821u268eiRAwHWYT.jpg'
 		},
 		{
 			name: 'Jon Viar',
-			profile_path: '/9jzdcGcZL72DLW4HL7PHyZIeuzF.jpg'
+			photo: '/9jzdcGcZL72DLW4HL7PHyZIeuzF.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['14:00'] },
+		{ day: 'VIE', hours: ['17:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00'] }
 	]
 };
 
 export const MARIPOSAS_NEGRAS = {
 	backdrop_path: '/2hqy5KIyymQScInMggG0uNUvJJI.jpg',
 	genre_ids: ['animation', 'documentary'],
-	id: 1280400,
+	genero: ['Animación', 'documental'],
+	id: '1280400',
 	original_language: 'Español',
 	original_title: 'Mariposas Negras',
 	overview:
@@ -457,35 +529,37 @@ export const MARIPOSAS_NEGRAS = {
 	actors: [
 		{
 			name: 'Laura Gómez',
-			profile_path: '/xdZFWQmttxlpG2aKCYdM7PanDZ2.jpg'
+			photo: '/xdZFWQmttxlpG2aKCYdM7PanDZ2.jpg'
 		},
 		{
 			name: 'Bella Agossou',
-			profile_path: '/dv4DbpIsVVKqkFbDtpbK7N1QM5L.jpg'
+			photo: '/dv4DbpIsVVKqkFbDtpbK7N1QM5L.jpg'
 		},
 		{
 			name: 'Miranda Gas',
-			profile_path: '/zS6sF8fwulKUz29ILxPoiSF34tF.jpg'
+			photo: '/zS6sF8fwulKUz29ILxPoiSF34tF.jpg'
 		},
 		{
 			name: 'David Comrie',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Jean-Didiere Aïssy',
-			profile_path: null
+			photo: null
 		},
 		{
 			name: 'Maria Jesús Lleonart',
-			profile_path: null
+			photo: null
 		}
-	]
+	],
+	horario: [{ day: 'MAR'['12:00'] }, { day: 'DOM', hours: ['12:30', '17:00'] }]
 };
 
 export const SEGUNDO_PREMIO = {
 	backdrop_path: '/gnfj8rc8TDszQKrTfz5rFbOYaPw.jpg',
 	genre_ids: ['drama', 'music'],
-	id: 977548,
+	genero: ['Drama', 'música'],
+	id: '977548',
 	original_language: 'Español',
 	original_title: 'Segundo premio',
 	overview:
@@ -507,31 +581,33 @@ export const SEGUNDO_PREMIO = {
 	actors: [
 		{
 			name: 'Daniel Ibáñez',
-			profile_path: '/d2j4qq0TUasP8if26wIXQOP4kjS.jpg'
+			photo: '/d2j4qq0TUasP8if26wIXQOP4kjS.jpg'
 		},
 		{
 			name: 'Cristalino',
-			profile_path: '/assets/images/movies/Segundo_premio/actor_cristalino.jpg'
+			photo: '/assets/images/movies/Segundo_premio/actor_cristalino.jpg'
 		},
 		{
 			name: 'Stéphanie Magnin',
-			profile_path: '/e3aGkokW0JkyzpU71VZEoxm0Kv5.jpg'
+			photo: '/e3aGkokW0JkyzpU71VZEoxm0Kv5.jpg'
 		},
 		{
 			name: 'Eduardo Rejón',
-			profile_path: '/mkaM9kIE5hPle1NWbYqllSt11my.jpg'
+			photo: '/mkaM9kIE5hPle1NWbYqllSt11my.jpg'
 		},
 		{
 			name: 'Mafo',
-			profile_path: '/assets/images/movies/Segundo_premio/actor_mafo.jpg'
+			photo: '/assets/images/movies/Segundo_premio/actor_mafo.jpg'
 		}
-	]
+	],
+	horario: [{ day: 'MAR'['12:00'] }, { day: 'DOM', hours: ['12:30', '17:00'] }]
 };
 
 export const MARCO = {
 	backdrop_path: '/oPhbjXCRg4yGgxmuoDMfYthuQYF.jpg',
 	genre_ids: ['drama', 'history'],
-	id: 1195100,
+	genero: ['Drama', 'historia'],
+	id: '1195100',
 	original_language: 'Español',
 	original_title: 'Marco: la verdad inventada',
 	overview:
@@ -543,39 +619,50 @@ export const MARCO = {
 	video: 'https://www.youtube.com/watch?v=bhYXrXO0aPk',
 	filmAffinity: '7.0',
 	duration: 98,
+	age: '12',
 	director: 'Aitor Arregi',
-	banners: ['', '', ''],
+	banners: [
+		'/assets/images/movies/Marco/banner1_Marco.jpg',
+		'/assets/images/movies/Marco/banner2_Marco.jpg',
+		'/assets/images/movies/Marco/banner3_Marco.jpg'
+	],
 	actors: [
 		{
 			name: 'Eduard Fernández',
-			profile_path: '/1oBOegVHnzjNAU3PFsulfYApEb8.jpg'
+			photo: '/1oBOegVHnzjNAU3PFsulfYApEb8.jpg'
 		},
 		{
 			name: 'Nathalie Poza',
-			profile_path: '/ebG1AgIEi9WhUxCREmz4WiKoRtV.jpg'
+			photo: '/ebG1AgIEi9WhUxCREmz4WiKoRtV.jpg'
 		},
 		{
 			name: 'Sonia Almarcha',
-			profile_path: '/3dCeLMVuexRKeCIzjwv3c0JCpm6.jpg'
+			photo: '/3dCeLMVuexRKeCIzjwv3c0JCpm6.jpg'
 		},
 		{
 			name: 'Daniela Brown',
-			profile_path: '/6aLrNJte159uzlw2KSkXdmApQBs.jpg'
+			photo: '/6aLrNJte159uzlw2KSkXdmApQBs.jpg'
 		},
 		{
 			name: 'Chani Martín',
-			profile_path: '/rmj6FiM1khtu59M5IsdqOiZt6EZ.jpg'
+			photo: '/rmj6FiM1khtu59M5IsdqOiZt6EZ.jpg'
 		},
 		{
 			name: 'Júlia Molins',
-			profile_path: '/4hAn9uXEaG1DfX3J8grCF8lPwYe.jpg'
+			photo: '/4hAn9uXEaG1DfX3J8grCF8lPwYe.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MAR'['14:00'] },
+		{ day: 'VIE', hours: ['17:00'] },
+		{ day: 'DOM', hours: ['18:00'] }
 	]
 };
 
 export const QUEER = {
 	backdrop_path: '/7bUYzlDz8eel1BVL1Y0YcF9NQmd.jpg',
 	genre_ids: ['drama', 'romance'],
+	genero: ['Drama', 'romance'],
 	id: '1059128',
 	age: '18',
 	original_language: 'Inglés',
@@ -621,12 +708,19 @@ export const QUEER = {
 			name: 'Drew Droege',
 			photo: '/bVS8mii6NkkV22LB9fUEj5Yixyg.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['17:00'] },
+		{ day: 'MIE', hours: ['19:00'] },
+		{ day: 'VIE', hours: ['17:00', '19:30'] },
+		{ day: 'DOM', hours: ['12:30', '17:00'] }
 	]
 };
 
 export const LA_ACOMPAÑANTE = {
 	backdrop_path: '/sc1abgWNXc29wSBaerrjGBih06l.jpg',
 	genre_ids: ['sci-fi', 'horror', 'comedy', 'thriller'],
+	genero: ['Sci-fi', 'terror', 'comedia', 'thriller'],
 	id: '1084199',
 	age: '16',
 	original_language: 'Inglés',
@@ -671,12 +765,20 @@ export const LA_ACOMPAÑANTE = {
 			name: 'Rupert Friend',
 			photo: '/mYgY8LrMkQ4OkGTIOf6MtkbMnnW.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['17:00', '19:00'] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'VIE', hours: ['19:00', '21:30', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '19:00', '21:30', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '19:00', '21:30'] }
 	]
 };
 
 export const NOSFERATU = {
 	backdrop_path: '/h7r6LZ32dgLwtwSW3CxoWIYD9pr.jpg',
 	genre_ids: ['horror', 'fantasy'],
+	genero: ['Terror', 'fantasía'],
 	id: '426063',
 	age: '16',
 	original_language: 'Inglés',
@@ -721,11 +823,19 @@ export const NOSFERATU = {
 			name: 'Emma Corrin',
 			photo: '/wqGOVOsHzZaHeHymIS40elGCnY0.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['17:00', '19:00'] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'VIE', hours: ['19:00', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '21:30'] }
 	]
 };
 export const BABYGIRL = {
 	backdrop_path: '/hctfNoMpQGfn3VXdBYb9p0P5bT5.jpg',
 	genre_ids: ['drama'],
+	genero: ['Drama'],
 	age: '18',
 	id: '1097549',
 	original_language: 'Inglés',
@@ -770,11 +880,24 @@ export const BABYGIRL = {
 			name: 'Vaughan Reilly',
 			photo: '/yt2izl98e0R7FTGOHJ5y4glDGRV.jpg'
 		}
+	],
+	horario: [
+		{
+			day: 'LUN',
+			hours: ['17:00', '19:00']
+		},
+		{ day: 'MAR', hours: ['17:00', '19:00'] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['17:00', '19:00'] },
+		{ day: 'VIE', hours: ['19:00', '21:30', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '19:00', '21:30', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '19:00', '21:30'] }
 	]
 };
 export const LA_SUSTANCIA = {
 	backdrop_path: '/9oYdz5gDoIl8h67e3ccv3OHtmm2.jpg',
 	genre_ids: ['horror', 'sci-fi', 'comedy'],
+	genero: ['Terror', 'sci-fi', 'comedia'],
 	id: '933260',
 	age: '18',
 	original_language: 'Inglés',
@@ -819,6 +942,13 @@ export const LA_SUSTANCIA = {
 			name: 'Oscar Lesage',
 			photo: '/8N31SCzlmRBEHRXD7AIE50Wh7Fs.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['17:00', '19:00'] },
+		{ day: 'VIE', hours: ['19:00', '21:30', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '21:30'] }
 	]
 };
 export const WAR_ROHIRRIM = {
@@ -841,6 +971,7 @@ export const WAR_ROHIRRIM = {
 export const FLOW = {
 	backdrop_path: '/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg',
 	genre_ids: ['animation', 'fantasy', 'adventure'],
+	genero: ['Animación', 'fantasía', 'adventura'],
 	id: '823219',
 	age: 'A',
 	original_language: 'lv',
@@ -859,12 +990,22 @@ export const FLOW = {
 		'/assets/images/movies/FLOW/banner2_flow.jpg',
 		'/assets/images/movies/FLOW/banner3_flow.jpg'
 	],
-	actors: []
+	actors: [],
+	horario: [
+		{ day: 'LUN', hours: ['12:00', '17:00'] },
+		{ day: 'MAR', hours: ['14:00', '17:00'] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['14:00', '17:00'] },
+		{ day: 'VIE', hours: ['17:00', '19:00'] },
+		{ day: 'SAB', hours: ['12:00', '17:00', '19:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '19:00'] }
+	]
 };
 
 export const ROBOT_SALVAJE = {
 	backdrop_path: '/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg',
 	genre_ids: ['animation', 'sci-fi', 'family'],
+	genrero: ['Animación', 'sci-fi', 'familia'],
 	id: '1184918',
 	original_language: 'Inglés',
 	age: 'A',
@@ -908,12 +1049,22 @@ export const ROBOT_SALVAJE = {
 			name: 'Matt Berry',
 			photo: '/7a1sWg1W7ZmNF8bLSnyAlJgQQGD.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['12:00', '17:00'] },
+		{ day: 'MAR'[('14:00', '17:00')] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['14:00', '17:00'] },
+		{ day: 'VIE', hours: ['17:00', '19:00'] },
+		{ day: 'SAB', hours: ['12:00', '17:00', '19:00'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '19:00'] }
 	]
 };
 
 export const MEMORIAS_DE_UN_CARACOL = {
 	backdrop_path: '/i3CAo9UMGsvlU9k3Svd63rRDeZx.jpg',
 	genre_ids: ['animation', 'drama', 'comedy'],
+	genero: ['Animación', 'drama', 'comedia'],
 	id: '1064486',
 	age: '18',
 	original_language: 'Inglés',
@@ -957,11 +1108,21 @@ export const MEMORIAS_DE_UN_CARACOL = {
 			name: 'Tony Armstrong',
 			photo: '/2uEEg0q9RsbgQucvEqwIhH9Aw2v.jpg'
 		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['17:00', '19:00'] },
+		{ day: 'MAR', hours: ['17:00', '19:00'] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['17:00', '19:00'] },
+		{ day: 'VIE', hours: ['19:00', '21:30', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '19:00', '21:30', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '19:00', '21:30'] }
 	]
 };
 export const ANORA = {
 	backdrop_path: '/kEYWal656zP5Q2Tohm91aw6orlT.jpg',
 	genre_ids: ['drama', 'comedy', 'romance'],
+	genero: ['Drama', 'comedia', 'romance'],
 	id: '1064213',
 	age: '18',
 	original_language: 'Inglés',
@@ -1005,12 +1166,20 @@ export const ANORA = {
 			name: 'Luna Sofía Miranda',
 			photo: '/eSEfNzd7f3Eg6LxWkiA1hjN51YN.jpg'
 		}
+	],
+	horario: [
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['17:00', '19:00'] },
+		{ day: 'VIE', hours: ['19:00', '21:30', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '21:30'] }
 	]
 };
 
 export const MARIA_CALLAS = {
 	backdrop_path: '/9iw4a6AQkxUO3EuRn59Vgrqf0zO.jpg',
 	genre_ids: ['drama', 'music'],
+	genero: ['Drama', 'música'],
 	id: '1038263',
 	age: '18',
 	original_language: 'Inglés',
@@ -1026,12 +1195,53 @@ export const MARIA_CALLAS = {
 		'/assets/images/movies/Maria_Callas/banner2_mariacallas.jpg',
 		'/assets/images/movies/Maria_Callas/banner3_mariacallas.jpg'
 	],
-	video: 'https://www.youtube.com/watch?v=du4L5ikk5Ms'
+	video: 'https://www.youtube.com/watch?v=du4L5ikk5Ms',
+	filmAffinity: 6.8,
+	director: 'Pablo Larraín',
+	duration: 122,
+	actors: [
+		{
+			name: 'Angelina Jolie',
+			photo: '/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg'
+		},
+		{
+			name: 'Pierfrancesco Favino',
+			photo: '/hedzgTKFKrSleWvLkBlANng8w4T.jpg'
+		},
+		{
+			name: 'Alba Rohrwacher',
+			photo: '/swffcvnDnj5966fdLSnXOMY186.jpg'
+		},
+		{
+			name: 'Haluk Bilginer',
+			photo: '/krCEBAIGmEUUcA4GpLt3RiTHKLC.jpg'
+		},
+		{
+			name: 'Kodi Smit-McPhee',
+			photo: '/sesCWba9NwPDYDZzbVLs7OgLOti.jpg'
+		},
+		{
+			name: 'Stephen Ashfield',
+			photo: '/sVxWIxs8bTYK2GpTTjAWb0Nj0xf.jpg'
+		}
+	],
+	horario: [
+		{ day: 'LUN', hours: ['17:00', '19:00'] },
+		{ day: 'MAR', hours: ['17:00', '19:00'] },
+		{ day: 'MIE', hours: ['19:00', '21:30'] },
+		{ day: 'JUE', hours: ['17:00', '19:00'] },
+		{ day: 'VIE', hours: ['19:00', '21:30', '22:15'] },
+		{ day: 'SAB', hours: ['17:00', '19:00', '21:30', '22:15'] },
+		{ day: 'DOM', hours: ['12:30', '17:00', '19:00', '21:30'] }
+	]
 };
+
+/*proximamente*/
 
 export const TU_COLOR = {
 	backdrop_path: '/mFC52cN0oz1WqTXR0jRT69oHKTp.jpg',
 	genre_ids: ['animation', 'drama', 'music'],
+	genero: ['Animación', 'drama', 'música'],
 	id: '1056444',
 	age: '12',
 	original_language: 'Japonés',
@@ -1041,19 +1251,49 @@ export const TU_COLOR = {
 	popularity: 14.536,
 	poster_path: '/5YWTtiKFugxEbCZEdrrU70gVGdW.jpg',
 	release_date: '2024-08-30',
+	estreno: '28 de Febrero',
 	title: 'Tu color',
 	banners: [
 		'/assets/images/movies/Tu_color/banner1_tucolor.jpg',
 		'/assets/images/movies/Tu_color/banner2_tucolor.jpg',
 		'/assets/images/movies/Tu_color/banner3_tucolor.jpg'
 	],
-	video: 'https://www.youtube.com/watch?v=r8e-a8GQPhw'
+	video: 'https://www.youtube.com/watch?v=r8e-a8GQPhw',
+	duration: 101,
+	director: 'Naoko Yamada',
+	actors: [
+		{
+			name: 'Sayu Suzukawa',
+			photo: '/7TyoU909tT1WcfRzpdbbAethpew.jpg'
+		},
+		{
+			name: 'Akari Takaishi',
+			photo: '/qQURz3QiOVFHOo2azpL5cQOJg3a.jpg'
+		},
+		{
+			name: 'Taisei Kido',
+			photo: '/biKmbMevTPbIWjF9VBq2dMO8rcl.jpg'
+		},
+		{
+			name: 'Yasuko',
+			photo: null
+		},
+		{
+			name: 'Aoi Yuki',
+			photo: '/4kHNZSUIux52UU2BD3H6b5c5ymZ.jpg'
+		},
+		{
+			name: 'Minako Kotobuki',
+			photo: '/puocmMfvql6X1AvhFTolaV6Vh2r.jpg'
+		}
+	]
 };
 
 export const BETTER_MAN = {
 	adult: false,
 	backdrop_path: '/5UiYxRw2PMCb0BLCJ8M2cJonztS.jpg',
 	genre_ids: ['music', 'drama'],
+	genero: ['Música', 'drama'],
 	id: '799766',
 	age: '16',
 	original_language: 'Inglés',
@@ -1063,30 +1303,89 @@ export const BETTER_MAN = {
 	popularity: 119.658,
 	poster_path: '/otXaS8K5coAwmUyGxBsNz9mWs8H.jpg',
 	release_date: '2024-12-14',
+	estreno: '28 de Febrero',
 	title: 'Better Man',
 	video: 'https://www.youtube.com/watch?v=KVeH5T4wxkE',
-	banners: ['', '', '']
+	banners: ['', '', ''],
+	director: 'Michael Gracey',
+	duration: 136,
+	actors: [
+		{
+			name: 'Robbie Williams',
+			photo: '/f1zx0gcYjBCo8802WBr3egRcDDl.jpg'
+		},
+		{
+			name: 'Jonno Davies',
+			photo: '/oI68xvcPqZjRIfteTbtT3jAVUV1.jpg'
+		},
+		{
+			name: 'Steve Pemberton',
+			photo: '/j4AFPsF6DM9nfccol3VFQgPJ6Ia.jpg'
+		},
+		{
+			name: 'Alison Steadman',
+			photo: '/BY0jL3IrAx7TA2OlQhY03ISk9i.jpg'
+		},
+		{
+			name: 'Kate Mulvany',
+			photo: '/y80VZs4JwiXFlTvr5n8Y5Ezr3HS.jpg'
+		},
+		{
+			name: 'Frazer Hadfield',
+			photo: '/tygdh1voUl3FxGWtBiGquLZxQlM.jpg'
+		}
+	]
 };
 
 export const VERMIGLIO = {
 	adult: false,
 	backdrop_path: '/mxfUKewelcGm61cN9Yx5lYzCMze.jpg',
 	genre_ids: ['drama'],
+	genero: ['Drama'],
 	id: '1151244',
-	age: 'NR',
-	original_language: 'it',
+	age: '12',
+	original_language: 'Italiano',
 	original_title: 'Vermiglio',
 	overview:
 		'Drama de época ambientado en un remoto pueblo de montaña de los Alpes italianos a finales de la Segunda Guerra Mundial. La historia nos adentra en la familia del maestro local y nos muestra cómo la llegada de un soldado desertor alterará su vida y conducirá a todos sus miembros a un destino inesperado.',
 	popularity: 0.001,
 	poster_path: '/jVd5lH1wbYqEY8YEoT4nbPpZXhB.jpg',
 	release_date: '2024-09-19',
+	estreno: '28 de Febrero',
 	title: 'Vermiglio',
 	video: 'https://www.youtube.com/watch?v=701RfY55ppQ',
 	banners: [
 		'/assets/images/movies/Vermiglio/banner1_vermiglio.jpg',
 		'/assets/images/movies/Vermiglio/banner2_vermiglio.jpg',
 		'/assets/images/movies/Vermiglio/banner3_vermiglio.jpg'
+	],
+	duration: 119,
+	director: 'Maura Delpero',
+	actors: [
+		{
+			name: 'Tommaso Ragno',
+			photo: '/jxCSg7hYjhilnYpTjXCFjGox5v6.jpg'
+		},
+		{
+			name: 'Giuseppe De Domenico',
+			photo: '/nOrnhwbzyaDop28nFS3JwKvO09J.jpg'
+		},
+		{
+			name: 'Roberta Rovelli',
+			photo: '/1GbLBH9WdEVxAoqyjU5AA48DBFH.jpg'
+		},
+		{
+			name: 'Martina Scrinzi',
+			photo: '/rC7fkTQxsp0GNXVgPokMIQYJWUY.jpg'
+		},
+		{
+			name: 'Orietta Notari',
+			photo: '/zhyE0pVwkdmtUCml5uu2mBm5Gu1.jpg'
+		},
+		{
+			name: 'Carlotta Gamba',
+			photo: '/lDPUcEdQMprkz2E3DjvcaiIAszz.jpg'
+		}
 	]
 };
 
@@ -1094,6 +1393,7 @@ export const SEPTEMBER_5 = {
 	adult: false,
 	backdrop_path: '/nEH7XUCeWsEuJtGgWUVUl6MEQW0.jpg',
 	genre_ids: ['drama', 'thriller', 'history'],
+	genero: ['Drama', 'thriller', 'historia'],
 	id: '1211472',
 	age: '18',
 	original_language: 'Inglés',
@@ -1103,18 +1403,48 @@ export const SEPTEMBER_5 = {
 	popularity: 102.803,
 	poster_path: '/lHNSCUtThlJlHYqWKuBaQk5tjMM.jpg',
 	release_date: '2024-11-07',
+	estreno: '28 de Febrero',
 	title: 'Septiembre 5',
 	video: 'https://www.youtube.com/watch?v=Azud40CQ3IE',
 	banners: [
 		'/assets/images/movies/Septiembre5/banner1_sep5.jpg',
 		'/assets/images/movies/Septiembre5/banner2_sep5.jpg',
 		'/assets/images/movies/Septiembre5/banner3_sep5.jpg'
+	],
+	duration: 95,
+	director: 'Tim Fehlbaum',
+	actors: [
+		{
+			name: 'John Magaro',
+			photo: '/ah4Jm4Lmrgab9xdHwRId80S4REd.jpg'
+		},
+		{
+			name: 'Leonie Benesch',
+			photo: '/hIRRfgggHgz07HBLyEHVpCXldYX.jpg'
+		},
+		{
+			name: 'Peter Sarsgaard',
+			photo: '/gYnEJjeHgZVBZh6aGzgfzm4jIHM.jpg'
+		},
+		{
+			name: 'Ben Chaplin',
+			photo: '/oJc9gA7cRvRg1v4tgeAmpkaqFxO.jpg'
+		},
+		{
+			name: 'Zinedine Soualem',
+			photo: '/feyQoQ89GDPnnmbeiiVFHkJvQtH.jpg'
+		},
+		{
+			name: 'Georgina Rich',
+			photo: '/jtBgpLbkUDCW6IS4lQKnrqWTAmr.jpg'
+		}
 	]
 };
 
 export const PRESENCE = {
 	backdrop_path: '/st9M4O4imOuQVU35RMeYuEQfkvD.jpg',
-	genre_ids: ['drama', 'mystery', 'horror'],
+	genre_ids: ['horror', 'mystery', 'drama'],
+	genero: ['Terror', 'misterio', 'drama'],
 	id: '1140535',
 	age: '18',
 	original_language: 'Inglés',
@@ -1125,17 +1455,47 @@ export const PRESENCE = {
 	poster_path: '/awo4dVfchLFMVCCRUTOEAtgYEVm.jpg',
 	release_date: '2025-01-16',
 	title: 'Presence',
+	estreno: '7 de Marzo',
 	video: 'https://www.youtube.com/watch?v=XfSNmYhV8Xc',
 	banners: [
 		'/assets/images/movies/Presence/banner1_presence.jpg',
 		'/assets/images/movies/Presence/banner2_presence.jpg',
 		'/assets/images/movies/Presence/banner3_presence.jpg'
+	],
+	duration: 85,
+	director: 'Steven Soderbergh',
+	actors: [
+		{
+			name: 'Callina Liang',
+			photo: '/yiajT9WAsvuxF9uNJrkSuzVv3On.jpg'
+		},
+		{
+			name: 'Lucy Liu',
+			photo: '/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg'
+		},
+		{
+			name: 'Chris Sullivan',
+			photo: '/yHqIbynVHKBM7gJjef3zNlTk3rf.jpg'
+		},
+		{
+			name: 'Eddy Maday',
+			photo: '/b1wNDkZvwmASphyBirqX2a5Wr0g.jpg'
+		},
+		{
+			name: 'Julia Fox',
+			photo: '/AwipgBalCBiOfwXKssxM0NQlz33.jpg'
+		},
+		{
+			name: 'Lucas Papaelias',
+			photo: '/6RPB3aTQRj9EiIzZjyGHe7zlOpC.jpg'
+		}
 	]
 };
 
 export const MICKEY_17 = {
 	backdrop_path: '/2P0PUkQ1tNHNYTEmtbBmM8MfXBG.jpg',
 	genre_ids: ['sci-fi', 'comedy'],
+	genero: ['Sci-fi', 'comedia'],
 	id: '696506',
 	age: '16',
 	original_language: 'Inglés',
@@ -1145,18 +1505,48 @@ export const MICKEY_17 = {
 	popularity: 72.189,
 	poster_path: '/ou9BobDOvNbkFYBTlpa7x8pND4i.jpg',
 	release_date: '2025-02-28',
+	estreno: '7 de Marzo',
 	title: 'Mickey 17',
 	video: 'https://www.youtube.com/watch?v=tA1s65o_kYM',
 	banners: [
 		'/assets/images/movies/Mickey17/banner1_mickey17.jpg',
 		'/assets/images/movies/Mickey17/banner2_mickey17.jpg',
 		'/assets/images/movies/Mickey17/banner3_mickey17.jpg'
+	],
+	duration: 138,
+	director: 'Bong Joon Ho',
+	actors: [
+		{
+			name: 'Robert Pattinson',
+			photo: '/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg'
+		},
+		{
+			name: 'Mark Ruffalo',
+			photo: '/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg'
+		},
+		{
+			name: 'Naomi Ackie',
+			photo: '/kRJHgH4ATdFrHmWS48enQn2qiZj.jpg'
+		},
+		{
+			name: 'Toni Collette',
+			photo: '/lzXRh16qe4HHeBN6tMyw0DHvaMn.jpg'
+		},
+		{
+			name: 'Steven Yeun',
+			photo: '/5XU0L0drBa7JlGrLg2w3LhAgjG0.jpg'
+		},
+		{
+			name: 'Patsy Ferran',
+			photo: '/m2twb29so7T5cW5IVs611FhQkZl.jpg'
+		}
 	]
 };
 
 export const LEE_MILLER = {
 	backdrop_path: '/yjPXIgY3QoHe8Kt8nEJCz97UF3q.jpg',
 	genre_ids: ['history', 'drama', 'war'],
+	genero: ['Historia', 'drama', 'guerra'],
 	id: '832964',
 	age: '16',
 	original_language: 'Inglés',
@@ -1165,6 +1555,7 @@ export const LEE_MILLER = {
 		"La historia de la fotógrafa Elizabeth 'Lee' Miller, una modelo que se convirtió en una aclamada corresponsal de guerra de la revista Vogue durante la Segunda Guerra Mundial.",
 	popularity: 51.138,
 	poster_path: '/nmm7lLqF5mAzn3OvO7qJwFGbi2v.jpg',
+	estreno: '7 de Marzo',
 	release_date: '2024-09-12',
 	title: 'Lee Miller',
 	video: 'https://www.youtube.com/watch?v=DmFYkiUAAA8',
@@ -1172,26 +1563,84 @@ export const LEE_MILLER = {
 		'/assets/images/movies/Lee_Miller/banner1_leemiller.jpg',
 		'/assets/images/movies/Lee_Miller/banner2_leemiller.jpg',
 		'/assets/images/movies/Lee_Miller/banner3_leemiller.jpg'
+	],
+	duration: 117,
+	director: 'Ellen Kuras',
+	actors: [
+		{
+			name: 'Kate Winslet',
+			photo: '/e3tdop3WhseRnn8KwMVLAV25Ybv.jpg'
+		},
+		{
+			name: 'Andy Samberg',
+			photo: '/jMXU5oG3i93SH1yhkpbBGskFiJl.jpg'
+		},
+		{
+			name: 'Alexander Skarsgård',
+			photo: '/hIuDik6KDmHLrqZWxBVdXzUw1kq.jpg'
+		},
+		{
+			name: 'Marion Cotillard',
+			photo: '/biitzOF0GffIqFYLyOPkoiaOngQ.jpg'
+		},
+		{
+			name: 'Andrea Riseborough',
+			photo: '/dQzAXj6R8cTRqTwGzxUgegXbV13.jpg'
+		},
+		{
+			name: 'Noémie Merlant',
+			photo: '/lg83RO8HugXg9zbGtLtlsZSKjgA.jpg'
+		}
 	]
 };
 
 export const LA_CHICA_DE_LA_AGUJA = {
 	backdrop_path: '/xPPBElHCcNQ7H3aXdLptykKxyZ1.jpg',
 	genre_ids: ['drama', 'history', 'thriller'],
+	genero: ['Drama', 'historia', 'thriller'],
 	id: '1232827',
 	age: '16',
-	original_language: 'da',
+	original_language: 'Danés',
 	original_title: 'Pigen med nålen',
 	overview:
 		'Una joven embarazada que acaba de quedarse sin trabajo en Copenhague lucha por sobrevivir y es acogida por un anciano carismático para que la ayude a dirigir una agencia de adopción clandestina. Entre los dos se crea un vínculo inesperado, hasta que un descubrimiento repentino lo cambia todo.',
 	popularity: 93.132,
 	poster_path: '/aU3p3NC3btVtLnA8LVI48asdlfI.jpg',
 	release_date: '2024-09-06',
+	estreno: '21 de Marzo',
 	title: 'La chica de la aguja',
 	video: 'https://www.youtube.com/watch?v=Oz81Qmc5Mq4',
 	banners: [
 		'/assets/images/movies/Chica_aguja/banner1_chicaaguja.jpg',
 		'/assets/images/movies/Chica_aguja/banner2_chicaaguja.jpg',
 		'/assets/images/movies/Chica_aguja/banner3_chicaaguja.jpg'
+	],
+	duration: 123,
+	director: 'Magnus von Horn',
+	actors: [
+		{
+			name: 'Vic Carmen Sonne',
+			photo: '/2ROtesSqxXDT9IszpKkspsHp42O.jpg'
+		},
+		{
+			name: 'Trine Dyrholm',
+			photo: '/zVRGI2w8s2CQNLnbGzy41HnWn1l.jpg'
+		},
+		{
+			name: 'Besir Zeciri',
+			photo: '/13qjnv0nbIjzshbDEycHEg87Vyi.jpg'
+		},
+		{
+			name: 'Joachim Fjelstrup',
+			photo: '/yg4X8prL56KuuutWnYIAplysZvo.jpg'
+		},
+		{
+			name: 'Tessa Hoder',
+			photo: '/wPWimjbcjOA4aOUqDx9MaSmsROL.jpg'
+		},
+		{
+			name: 'Ava Knox Martin',
+			photo: '/jKpG0LdNgLsiVRIvhUMHLwzJ4L.jpg'
+		}
 	]
 };

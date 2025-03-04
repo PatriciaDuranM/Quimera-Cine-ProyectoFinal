@@ -1,5 +1,11 @@
+import Construccion from '../../components/Construccion/Construccion';
+
 const Blog = () => {
-	return <></>;
+	return (
+		<>
+			<Construccion />
+		</>
+	);
 };
 
 export default Blog;
