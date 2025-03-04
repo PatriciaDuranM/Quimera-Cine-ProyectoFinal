@@ -20,7 +20,7 @@ const Router = () => {
 				<Route path='/actividades' element={<Actividades />} />
 				<Route path='/perfil' element={<Perfil />} />
 				<Route path='/pelicula/:id' element={<Pelicula />} />
-				<Route path='/pago/:id' element={<Pago />} />
+				<Route path='/pago/:id/:day/:hour' element={<Pago />} />
 			</Route>
 		</Routes>
 	);

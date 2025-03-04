@@ -44,7 +44,7 @@ const StyledOption = styled.span`
 	font-weight: ${FONT_WEIGHT.medium};
 
 	@media screen and (width>786px) {
-		font-size: 32px;
+		font-size: 20px;
 	}
 `;
 
@@ -66,11 +66,11 @@ const StyledRRSSIcon = styled.img`
 `;
 const StyledFollow = styled.span`
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: ${FONT_FAMILY.clashGrotesk};
 	font-weight: ${FONT_WEIGHT.medium};
 	@media screen and (width>786px) {
-		font-size: 32px;
+		font-size: 24px;
 	}
 `;
 

@@ -18,7 +18,7 @@ import Butacas from '../../components/Butacas/Butacas';
 const Pago = () => {
 	const [step, setStep] = useState(1);
 	const [info, setInfo] = useState({});
-	const { id } = useParams();
+	const { id, day, hour } = useParams();
 
 	return (
 		<>
