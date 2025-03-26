@@ -14,7 +14,7 @@ const Construccion = () => {
 	return (
 		<>
 			<StyledTitleBox>
-				<picture>
+				{/* <picture>
 					<source
 						media='(min-width:768px)'
 						srcSet='/assets/images/images/filmWeb.svg'
@@ -24,7 +24,7 @@ const Construccion = () => {
 						srcSet='/assets/images/images/filmMov.svg'
 					/>
 					<StyledFilm src='/assets/images/images/filmMov.svg' />
-				</picture>
+				</picture> */}
 				<StyledTitle>PRÓXIMAMENTE</StyledTitle>
 			</StyledTitleBox>
 			<>

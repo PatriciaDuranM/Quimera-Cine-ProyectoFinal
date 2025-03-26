@@ -3,35 +3,41 @@ import { FONT_FAMILY, FONT_WEIGHT } from '../../styles/FontsStyles';
 import { COLORS } from '../../styles/Colors';
 
 const StyledTitleBox = styled.div`
-	width: 100%;
-	height: 154px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-
-	@media screen and (width>768px) {
-		height: 252px;
-	}
+	overflow: hidden;
+	max-width: 100%;
 `;
 
 const StyledTitle = styled.h2`
+	position: relative;
+	z-index: -1;
+	width: calc(100% + 30px);
+	height: 88px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	margin: 0;
-	transform: rotate(-4.718deg);
+	rotate: -4.718deg;
+	translate: -20px;
 	font-family: ${FONT_FAMILY.clashDisplay};
 	color: #fff;
 	font-size: 28px;
 	font-weight: ${FONT_WEIGHT.semibold};
+	background-image: url('/assets/images/images/SubtractFilm.svg');
+	background-position: -20px;
+
+	overflow: hidden;
 
 	@media screen and (width>768px) {
 		font-size: 48px;
+		height: 154px;
 	}
 `;
 
 const StyledFilm = styled.img`
 	width: 100%;
 	height: fit-content;
-	position: absolute;
+
 	top: 0px;
 	left: 0px;
 `;
